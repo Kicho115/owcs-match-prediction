@@ -1,0 +1,2269 @@
+{
+  "metadata": {
+    "total_players": 150,
+    "stats_included": [
+      "Damage Dealt",
+      "Healing Done",
+      "Damage Mitigated",
+      "Eliminations",
+      "Deaths",
+      "K/D Ratio",
+      "Objective Time",
+      "Assists",
+      "Final Blows"
+    ],
+    "description": "Historical player statistics for OWCS match prediction"
+  },
+  "players": [
+    {
+      "name": "Admiral",
+      "matches_played": 82,
+      "stats": {
+        "Damage Dealt": 4474.39,
+        "Healing Done": 7489.16,
+        "Damage Mitigated": 2278.93,
+        "Eliminations": 13.57,
+        "Deaths": 5.6,
+        "K/D Ratio": 3.42,
+        "Objective Time": 88.61,
+        "Assists": 17.24,
+        "Final Blows": 3.35
+      }
+    },
+    {
+      "name": "Alba",
+      "matches_played": 7,
+      "stats": {
+        "Damage Dealt": 4696.43,
+        "Healing Done": 7526.0,
+        "Damage Mitigated": 454.29,
+        "Eliminations": 6.43,
+        "Deaths": 8.57,
+        "K/D Ratio": 0.76,
+        "Objective Time": 31.0,
+        "Assists": 3.43,
+        "Final Blows": 2.0
+      }
+    },
+    {
+      "name": "Aoy",
+      "matches_played": 14,
+      "stats": {
+        "Damage Dealt": 4381.71,
+        "Healing Done": 5571.43,
+        "Damage Mitigated": 2231.43,
+        "Eliminations": 13.43,
+        "Deaths": 6.57,
+        "K/D Ratio": 2.5,
+        "Objective Time": 57.71,
+        "Assists": 12.86,
+        "Final Blows": 2.79
+      }
+    },
+    {
+      "name": "Arise",
+      "matches_played": 0,
+      "stats": {
+        "Damage Dealt": 0.0,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 0.0,
+        "Deaths": 0.0,
+        "K/D Ratio": 0.0,
+        "Objective Time": 0.0,
+        "Assists": 0.0,
+        "Final Blows": 0.0
+      }
+    },
+    {
+      "name": "Astro",
+      "matches_played": 25,
+      "stats": {
+        "Damage Dealt": 9029.8,
+        "Healing Done": 125.08,
+        "Damage Mitigated": 7687.76,
+        "Eliminations": 14.4,
+        "Deaths": 6.32,
+        "K/D Ratio": 3.63,
+        "Objective Time": 101.76,
+        "Assists": 3.64,
+        "Final Blows": 5.28
+      }
+    },
+    {
+      "name": "Axure",
+      "matches_played": 0,
+      "stats": {
+        "Damage Dealt": 0.0,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 0.0,
+        "Deaths": 0.0,
+        "K/D Ratio": 0.0,
+        "Objective Time": 0.0,
+        "Assists": 0.0,
+        "Final Blows": 0.0
+      }
+    },
+    {
+      "name": "Backbone",
+      "matches_played": 11,
+      "stats": {
+        "Damage Dealt": 7882.27,
+        "Healing Done": 514.18,
+        "Damage Mitigated": 3325.18,
+        "Eliminations": 15.18,
+        "Deaths": 5.73,
+        "K/D Ratio": 3.81,
+        "Objective Time": 81.55,
+        "Assists": 2.45,
+        "Final Blows": 6.18
+      }
+    },
+    {
+      "name": "Baz",
+      "matches_played": 21,
+      "stats": {
+        "Damage Dealt": 7735.48,
+        "Healing Done": 352.9,
+        "Damage Mitigated": 7964.43,
+        "Eliminations": 13.05,
+        "Deaths": 7.24,
+        "K/D Ratio": 2.28,
+        "Objective Time": 82.24,
+        "Assists": 4.52,
+        "Final Blows": 4.71
+      }
+    },
+    {
+      "name": "Bliss",
+      "matches_played": 65,
+      "stats": {
+        "Damage Dealt": 4249.06,
+        "Healing Done": 5881.38,
+        "Damage Mitigated": 2309.22,
+        "Eliminations": 14.72,
+        "Deaths": 5.03,
+        "K/D Ratio": 5.03,
+        "Objective Time": 52.51,
+        "Assists": 16.29,
+        "Final Blows": 3.57
+      }
+    },
+    {
+      "name": "Chase",
+      "matches_played": 15,
+      "stats": {
+        "Damage Dealt": 9531.0,
+        "Healing Done": 112.6,
+        "Damage Mitigated": 9314.8,
+        "Eliminations": 22.8,
+        "Deaths": 4.8,
+        "K/D Ratio": 8.06,
+        "Objective Time": 83.93,
+        "Assists": 6.07,
+        "Final Blows": 8.8
+      }
+    },
+    {
+      "name": "Checkmate",
+      "matches_played": 86,
+      "stats": {
+        "Damage Dealt": 9130.23,
+        "Healing Done": 275.29,
+        "Damage Mitigated": 2229.76,
+        "Eliminations": 21.0,
+        "Deaths": 6.05,
+        "K/D Ratio": 5.54,
+        "Objective Time": 52.59,
+        "Assists": 2.29,
+        "Final Blows": 7.8
+      }
+    },
+    {
+      "name": "China",
+      "matches_played": 21,
+      "stats": {
+        "Damage Dealt": 5452.71,
+        "Healing Done": 26.52,
+        "Damage Mitigated": 1100.05,
+        "Eliminations": 9.62,
+        "Deaths": 7.05,
+        "K/D Ratio": 1.43,
+        "Objective Time": 42.86,
+        "Assists": 0.57,
+        "Final Blows": 4.57
+      }
+    },
+    {
+      "name": "Choisehwan",
+      "matches_played": 7,
+      "stats": {
+        "Damage Dealt": 8252.29,
+        "Healing Done": 207.86,
+        "Damage Mitigated": 693.14,
+        "Eliminations": 20.43,
+        "Deaths": 6.29,
+        "K/D Ratio": 4.22,
+        "Objective Time": 68.0,
+        "Assists": 1.57,
+        "Final Blows": 8.86
+      }
+    },
+    {
+      "name": "Chopper",
+      "matches_played": 33,
+      "stats": {
+        "Damage Dealt": 10749.3,
+        "Healing Done": 13.33,
+        "Damage Mitigated": 74.06,
+        "Eliminations": 22.18,
+        "Deaths": 5.97,
+        "K/D Ratio": 6.66,
+        "Objective Time": 37.76,
+        "Assists": 1.97,
+        "Final Blows": 9.45
+      }
+    },
+    {
+      "name": "Cinnabar",
+      "matches_played": 32,
+      "stats": {
+        "Damage Dealt": 4295.41,
+        "Healing Done": 6151.44,
+        "Damage Mitigated": 1967.0,
+        "Eliminations": 12.03,
+        "Deaths": 6.16,
+        "K/D Ratio": 2.8,
+        "Objective Time": 68.16,
+        "Assists": 12.91,
+        "Final Blows": 2.69
+      }
+    },
+    {
+      "name": "Cjay",
+      "matches_played": 82,
+      "stats": {
+        "Damage Dealt": 4541.67,
+        "Healing Done": 11066.88,
+        "Damage Mitigated": 426.4,
+        "Eliminations": 13.52,
+        "Deaths": 5.07,
+        "K/D Ratio": 4.37,
+        "Objective Time": 33.68,
+        "Assists": 17.0,
+        "Final Blows": 3.28
+      }
+    },
+    {
+      "name": "Clear",
+      "matches_played": 0,
+      "stats": {
+        "Damage Dealt": 0.0,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 0.0,
+        "Deaths": 0.0,
+        "K/D Ratio": 0.0,
+        "Objective Time": 0.0,
+        "Assists": 0.0,
+        "Final Blows": 0.0
+      }
+    },
+    {
+      "name": "Cookie084",
+      "matches_played": 33,
+      "stats": {
+        "Damage Dealt": 10242.76,
+        "Healing Done": 14.64,
+        "Damage Mitigated": 169.85,
+        "Eliminations": 17.09,
+        "Deaths": 6.36,
+        "K/D Ratio": 3.3,
+        "Objective Time": 39.42,
+        "Assists": 0.7,
+        "Final Blows": 7.3
+      }
+    },
+    {
+      "name": "Crazycat",
+      "matches_played": 20,
+      "stats": {
+        "Damage Dealt": 3014.45,
+        "Healing Done": 11915.5,
+        "Damage Mitigated": 9.3,
+        "Eliminations": 8.6,
+        "Deaths": 7.35,
+        "K/D Ratio": 1.03,
+        "Objective Time": 41.25,
+        "Assists": 13.1,
+        "Final Blows": 1.65
+      }
+    },
+    {
+      "name": "Crispy",
+      "matches_played": 58,
+      "stats": {
+        "Damage Dealt": 4204.43,
+        "Healing Done": 7307.31,
+        "Damage Mitigated": 1571.6,
+        "Eliminations": 11.22,
+        "Deaths": 6.16,
+        "K/D Ratio": 2.77,
+        "Objective Time": 52.79,
+        "Assists": 12.38,
+        "Final Blows": 2.83
+      }
+    },
+    {
+      "name": "Cuffa",
+      "matches_played": 94,
+      "stats": {
+        "Damage Dealt": 10871.73,
+        "Healing Done": 260.48,
+        "Damage Mitigated": 10651.21,
+        "Eliminations": 21.16,
+        "Deaths": 5.87,
+        "K/D Ratio": 5.09,
+        "Objective Time": 95.99,
+        "Assists": 4.41,
+        "Final Blows": 8.03
+      }
+    },
+    {
+      "name": "Danny",
+      "matches_played": 19,
+      "stats": {
+        "Damage Dealt": 7945.95,
+        "Healing Done": 73.11,
+        "Damage Mitigated": 340.53,
+        "Eliminations": 11.84,
+        "Deaths": 7.63,
+        "K/D Ratio": 1.75,
+        "Objective Time": 28.84,
+        "Assists": 1.58,
+        "Final Blows": 5.05
+      }
+    },
+    {
+      "name": "Dip",
+      "matches_played": 36,
+      "stats": {
+        "Damage Dealt": 8587.42,
+        "Healing Done": 197.89,
+        "Damage Mitigated": 1314.22,
+        "Eliminations": 17.53,
+        "Deaths": 6.39,
+        "K/D Ratio": 3.29,
+        "Objective Time": 84.78,
+        "Assists": 1.06,
+        "Final Blows": 7.75
+      }
+    },
+    {
+      "name": "Drunk",
+      "matches_played": 16,
+      "stats": {
+        "Damage Dealt": 6681.31,
+        "Healing Done": 24.31,
+        "Damage Mitigated": 1050.81,
+        "Eliminations": 11.31,
+        "Deaths": 7.25,
+        "K/D Ratio": 1.77,
+        "Objective Time": 67.38,
+        "Assists": 0.5,
+        "Final Blows": 4.81
+      }
+    },
+    {
+      "name": "Egs",
+      "matches_played": 10,
+      "stats": {
+        "Damage Dealt": 5333.8,
+        "Healing Done": 9856.3,
+        "Damage Mitigated": 190.8,
+        "Eliminations": 9.6,
+        "Deaths": 6.6,
+        "K/D Ratio": 1.78,
+        "Objective Time": 24.0,
+        "Assists": 14.9,
+        "Final Blows": 2.7
+      }
+    },
+    {
+      "name": "Eisgnom",
+      "matches_played": 46,
+      "stats": {
+        "Damage Dealt": 11052.24,
+        "Healing Done": 758.33,
+        "Damage Mitigated": 11258.11,
+        "Eliminations": 21.43,
+        "Deaths": 5.07,
+        "K/D Ratio": 6.38,
+        "Objective Time": 116.61,
+        "Assists": 5.96,
+        "Final Blows": 8.48
+      }
+    },
+    {
+      "name": "Evil",
+      "matches_played": 10,
+      "stats": {
+        "Damage Dealt": 6149.9,
+        "Healing Done": 15.6,
+        "Damage Mitigated": 698.3,
+        "Eliminations": 11.7,
+        "Deaths": 6.1,
+        "K/D Ratio": 2.2,
+        "Objective Time": 39.5,
+        "Assists": 0.3,
+        "Final Blows": 4.9
+      }
+    },
+    {
+      "name": "Ewan",
+      "matches_played": 21,
+      "stats": {
+        "Damage Dealt": 4419.14,
+        "Healing Done": 6825.81,
+        "Damage Mitigated": 2294.1,
+        "Eliminations": 11.29,
+        "Deaths": 7.76,
+        "K/D Ratio": 1.51,
+        "Objective Time": 63.24,
+        "Assists": 12.71,
+        "Final Blows": 2.29
+      }
+    },
+    {
+      "name": "F1lse",
+      "matches_played": 7,
+      "stats": {
+        "Damage Dealt": 8775.86,
+        "Healing Done": 212.14,
+        "Damage Mitigated": 13125.29,
+        "Eliminations": 15.14,
+        "Deaths": 7.57,
+        "K/D Ratio": 2.03,
+        "Objective Time": 102.0,
+        "Assists": 4.43,
+        "Final Blows": 4.86
+      }
+    },
+    {
+      "name": "Faith",
+      "matches_played": 29,
+      "stats": {
+        "Damage Dealt": 3934.79,
+        "Healing Done": 6739.93,
+        "Damage Mitigated": 3145.17,
+        "Eliminations": 12.41,
+        "Deaths": 5.41,
+        "K/D Ratio": 3.62,
+        "Objective Time": 58.62,
+        "Assists": 16.97,
+        "Final Blows": 3.0
+      }
+    },
+    {
+      "name": "Fdgod",
+      "matches_played": 67,
+      "stats": {
+        "Damage Dealt": 4878.87,
+        "Healing Done": 8373.01,
+        "Damage Mitigated": 2334.3,
+        "Eliminations": 12.99,
+        "Deaths": 6.19,
+        "K/D Ratio": 2.83,
+        "Objective Time": 62.18,
+        "Assists": 14.75,
+        "Final Blows": 3.39
+      }
+    },
+    {
+      "name": "Fixa",
+      "matches_played": 87,
+      "stats": {
+        "Damage Dealt": 5120.66,
+        "Healing Done": 7776.63,
+        "Damage Mitigated": 2376.51,
+        "Eliminations": 15.71,
+        "Deaths": 5.29,
+        "K/D Ratio": 3.87,
+        "Objective Time": 71.95,
+        "Assists": 17.8,
+        "Final Blows": 5.03
+      }
+    },
+    {
+      "name": "Fone",
+      "matches_played": 22,
+      "stats": {
+        "Damage Dealt": 7641.73,
+        "Healing Done": 255.91,
+        "Damage Mitigated": 813.59,
+        "Eliminations": 14.91,
+        "Deaths": 8.05,
+        "K/D Ratio": 1.67,
+        "Objective Time": 53.73,
+        "Assists": 3.59,
+        "Final Blows": 5.64
+      }
+    },
+    {
+      "name": "Frothyfilly7",
+      "matches_played": 25,
+      "stats": {
+        "Damage Dealt": 4725.92,
+        "Healing Done": 9609.04,
+        "Damage Mitigated": 135.84,
+        "Eliminations": 9.92,
+        "Deaths": 7.72,
+        "K/D Ratio": 1.38,
+        "Objective Time": 29.12,
+        "Assists": 12.16,
+        "Final Blows": 2.8
+      }
+    },
+    {
+      "name": "FunnyAstro",
+      "matches_played": 82,
+      "stats": {
+        "Damage Dealt": 4120.48,
+        "Healing Done": 8613.61,
+        "Damage Mitigated": 1574.43,
+        "Eliminations": 12.55,
+        "Deaths": 4.72,
+        "K/D Ratio": 4.21,
+        "Objective Time": 59.76,
+        "Assists": 13.85,
+        "Final Blows": 2.85
+      }
+    },
+    {
+      "name": "Funnyastro",
+      "matches_played": 0,
+      "stats": {
+        "Damage Dealt": 0.0,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 0.0,
+        "Deaths": 0.0,
+        "K/D Ratio": 0.0,
+        "Objective Time": 0.0,
+        "Assists": 0.0,
+        "Final Blows": 0.0
+      }
+    },
+    {
+      "name": "Galaa",
+      "matches_played": 87,
+      "stats": {
+        "Damage Dealt": 5050.01,
+        "Healing Done": 11493.36,
+        "Damage Mitigated": 178.46,
+        "Eliminations": 14.83,
+        "Deaths": 5.21,
+        "K/D Ratio": 3.86,
+        "Objective Time": 54.76,
+        "Assists": 17.45,
+        "Final Blows": 3.68
+      }
+    },
+    {
+      "name": "Gap",
+      "matches_played": 22,
+      "stats": {
+        "Damage Dealt": 10389.59,
+        "Healing Done": 1428.82,
+        "Damage Mitigated": 6973.86,
+        "Eliminations": 14.68,
+        "Deaths": 6.73,
+        "K/D Ratio": 2.14,
+        "Objective Time": 114.5,
+        "Assists": 7.0,
+        "Final Blows": 5.18
+      }
+    },
+    {
+      "name": "Gogo",
+      "matches_played": 20,
+      "stats": {
+        "Damage Dealt": 3900.05,
+        "Healing Done": 8741.2,
+        "Damage Mitigated": 1803.75,
+        "Eliminations": 8.4,
+        "Deaths": 7.65,
+        "K/D Ratio": 1.28,
+        "Objective Time": 67.65,
+        "Assists": 13.0,
+        "Final Blows": 2.15
+      }
+    },
+    {
+      "name": "Grapes",
+      "matches_played": 21,
+      "stats": {
+        "Damage Dealt": 3922.38,
+        "Healing Done": 8027.71,
+        "Damage Mitigated": 3047.9,
+        "Eliminations": 10.52,
+        "Deaths": 6.38,
+        "K/D Ratio": 1.79,
+        "Objective Time": 53.95,
+        "Assists": 13.95,
+        "Final Blows": 2.81
+      }
+    },
+    {
+      "name": "Graveyard",
+      "matches_played": 19,
+      "stats": {
+        "Damage Dealt": 3920.53,
+        "Healing Done": 8426.79,
+        "Damage Mitigated": 1280.47,
+        "Eliminations": 7.05,
+        "Deaths": 7.0,
+        "K/D Ratio": 1.26,
+        "Objective Time": 27.0,
+        "Assists": 10.68,
+        "Final Blows": 1.84
+      }
+    },
+    {
+      "name": "Hadi",
+      "matches_played": 10,
+      "stats": {
+        "Damage Dealt": 9169.6,
+        "Healing Done": 444.3,
+        "Damage Mitigated": 9202.9,
+        "Eliminations": 16.3,
+        "Deaths": 5.1,
+        "K/D Ratio": 5.02,
+        "Objective Time": 102.1,
+        "Assists": 5.4,
+        "Final Blows": 6.4
+      }
+    },
+    {
+      "name": "Haku",
+      "matches_played": 37,
+      "stats": {
+        "Damage Dealt": 4367.24,
+        "Healing Done": 7659.0,
+        "Damage Mitigated": 2723.84,
+        "Eliminations": 13.41,
+        "Deaths": 7.11,
+        "K/D Ratio": 2.78,
+        "Objective Time": 78.27,
+        "Assists": 16.76,
+        "Final Blows": 3.27
+      }
+    },
+    {
+      "name": "Hanbei",
+      "matches_played": 6,
+      "stats": {
+        "Damage Dealt": 4865.17,
+        "Healing Done": 7900.17,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 10.0,
+        "Deaths": 4.83,
+        "K/D Ratio": 2.81,
+        "Objective Time": 32.17,
+        "Assists": 13.67,
+        "Final Blows": 2.67
+      }
+    },
+    {
+      "name": "Hawk",
+      "matches_played": 8,
+      "stats": {
+        "Damage Dealt": 9281.75,
+        "Healing Done": 1120.25,
+        "Damage Mitigated": 10450.75,
+        "Eliminations": 19.5,
+        "Deaths": 5.5,
+        "K/D Ratio": 5.49,
+        "Objective Time": 124.75,
+        "Assists": 7.38,
+        "Final Blows": 8.0
+      }
+    },
+    {
+      "name": "Heesung",
+      "matches_played": 32,
+      "stats": {
+        "Damage Dealt": 9760.22,
+        "Healing Done": 204.62,
+        "Damage Mitigated": 9015.16,
+        "Eliminations": 17.41,
+        "Deaths": 5.31,
+        "K/D Ratio": 6.16,
+        "Objective Time": 86.47,
+        "Assists": 4.38,
+        "Final Blows": 6.62
+      }
+    },
+    {
+      "name": "Hitori",
+      "matches_played": 60,
+      "stats": {
+        "Damage Dealt": 9248.6,
+        "Healing Done": 507.6,
+        "Damage Mitigated": 9022.48,
+        "Eliminations": 16.08,
+        "Deaths": 7.2,
+        "K/D Ratio": 2.61,
+        "Objective Time": 96.85,
+        "Assists": 4.47,
+        "Final Blows": 6.97
+      }
+    },
+    {
+      "name": "Imoh97",
+      "matches_played": 17,
+      "stats": {
+        "Damage Dealt": 8488.82,
+        "Healing Done": 12.65,
+        "Damage Mitigated": 9384.76,
+        "Eliminations": 18.82,
+        "Deaths": 5.41,
+        "K/D Ratio": 6.97,
+        "Objective Time": 112.0,
+        "Assists": 3.71,
+        "Final Blows": 7.65
+      }
+    },
+    {
+      "name": "Infekted",
+      "matches_played": 79,
+      "stats": {
+        "Damage Dealt": 11238.11,
+        "Healing Done": 523.39,
+        "Damage Mitigated": 8964.24,
+        "Eliminations": 22.05,
+        "Deaths": 5.03,
+        "K/D Ratio": 7.01,
+        "Objective Time": 129.24,
+        "Assists": 7.44,
+        "Final Blows": 8.33
+      }
+    },
+    {
+      "name": "Irony",
+      "matches_played": 27,
+      "stats": {
+        "Damage Dealt": 3770.3,
+        "Healing Done": 9585.81,
+        "Damage Mitigated": 290.11,
+        "Eliminations": 11.0,
+        "Deaths": 3.78,
+        "K/D Ratio": 5.79,
+        "Objective Time": 36.85,
+        "Assists": 16.07,
+        "Final Blows": 3.0
+      }
+    },
+    {
+      "name": "Jaewoo",
+      "matches_played": 87,
+      "stats": {
+        "Damage Dealt": 8678.32,
+        "Healing Done": 167.32,
+        "Damage Mitigated": 1466.94,
+        "Eliminations": 22.16,
+        "Deaths": 5.03,
+        "K/D Ratio": 6.55,
+        "Objective Time": 65.98,
+        "Assists": 0.84,
+        "Final Blows": 9.93
+      }
+    },
+    {
+      "name": "Johnowich",
+      "matches_played": 10,
+      "stats": {
+        "Damage Dealt": 5038.6,
+        "Healing Done": 7074.9,
+        "Damage Mitigated": 711.8,
+        "Eliminations": 11.0,
+        "Deaths": 6.9,
+        "K/D Ratio": 2.22,
+        "Objective Time": 26.3,
+        "Assists": 7.4,
+        "Final Blows": 2.3
+      }
+    },
+    {
+      "name": "Jonte",
+      "matches_played": 8,
+      "stats": {
+        "Damage Dealt": 6241.12,
+        "Healing Done": 5984.5,
+        "Damage Mitigated": 109.88,
+        "Eliminations": 8.5,
+        "Deaths": 6.0,
+        "K/D Ratio": 1.92,
+        "Objective Time": 46.25,
+        "Assists": 3.38,
+        "Final Blows": 3.88
+      }
+    },
+    {
+      "name": "Juiiccee",
+      "matches_played": 3,
+      "stats": {
+        "Damage Dealt": 9218.0,
+        "Healing Done": 195.0,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 12.67,
+        "Deaths": 7.67,
+        "K/D Ratio": 1.73,
+        "Objective Time": 21.33,
+        "Assists": 0.0,
+        "Final Blows": 5.67
+      }
+    },
+    {
+      "name": "Jutsu",
+      "matches_played": 21,
+      "stats": {
+        "Damage Dealt": 8310.67,
+        "Healing Done": 5.05,
+        "Damage Mitigated": 28.19,
+        "Eliminations": 12.86,
+        "Deaths": 6.57,
+        "K/D Ratio": 2.24,
+        "Objective Time": 30.86,
+        "Assists": 0.48,
+        "Final Blows": 5.38
+      }
+    },
+    {
+      "name": "K1ng",
+      "matches_played": 31,
+      "stats": {
+        "Damage Dealt": 8889.52,
+        "Healing Done": 96.84,
+        "Damage Mitigated": 1521.32,
+        "Eliminations": 17.39,
+        "Deaths": 7.23,
+        "K/D Ratio": 2.87,
+        "Objective Time": 57.9,
+        "Assists": 0.65,
+        "Final Blows": 8.19
+      }
+    },
+    {
+      "name": "Kai",
+      "matches_played": 70,
+      "stats": {
+        "Damage Dealt": 9843.27,
+        "Healing Done": 1.01,
+        "Damage Mitigated": 61.86,
+        "Eliminations": 18.3,
+        "Deaths": 6.26,
+        "K/D Ratio": 4.02,
+        "Objective Time": 38.46,
+        "Assists": 0.87,
+        "Final Blows": 8.01
+      }
+    },
+    {
+      "name": "Karmez",
+      "matches_played": 6,
+      "stats": {
+        "Damage Dealt": 8911.67,
+        "Healing Done": 745.0,
+        "Damage Mitigated": 728.67,
+        "Eliminations": 15.33,
+        "Deaths": 8.0,
+        "K/D Ratio": 1.9,
+        "Objective Time": 58.67,
+        "Assists": 1.33,
+        "Final Blows": 6.5
+      }
+    },
+    {
+      "name": "Kellan",
+      "matches_played": 95,
+      "stats": {
+        "Damage Dealt": 10401.83,
+        "Healing Done": 514.99,
+        "Damage Mitigated": 10210.86,
+        "Eliminations": 20.13,
+        "Deaths": 4.62,
+        "K/D Ratio": 6.78,
+        "Objective Time": 96.07,
+        "Assists": 6.54,
+        "Final Blows": 7.09
+      }
+    },
+    {
+      "name": "Kellex",
+      "matches_played": 43,
+      "stats": {
+        "Damage Dealt": 3954.65,
+        "Healing Done": 7871.44,
+        "Damage Mitigated": 2085.79,
+        "Eliminations": 14.6,
+        "Deaths": 4.12,
+        "K/D Ratio": 5.53,
+        "Objective Time": 78.81,
+        "Assists": 18.14,
+        "Final Blows": 3.79
+      }
+    },
+    {
+      "name": "Ken",
+      "matches_played": 52,
+      "stats": {
+        "Damage Dealt": 7804.29,
+        "Healing Done": 78.02,
+        "Damage Mitigated": 1212.35,
+        "Eliminations": 17.04,
+        "Deaths": 6.5,
+        "K/D Ratio": 3.35,
+        "Objective Time": 57.83,
+        "Assists": 0.52,
+        "Final Blows": 6.94
+      }
+    },
+    {
+      "name": "Kevster",
+      "matches_played": 81,
+      "stats": {
+        "Damage Dealt": 8792.27,
+        "Healing Done": 72.3,
+        "Damage Mitigated": 1170.8,
+        "Eliminations": 19.89,
+        "Deaths": 4.75,
+        "K/D Ratio": 6.75,
+        "Objective Time": 64.69,
+        "Assists": 0.7,
+        "Final Blows": 8.9
+      }
+    },
+    {
+      "name": "Khenail",
+      "matches_played": 61,
+      "stats": {
+        "Damage Dealt": 4600.0,
+        "Healing Done": 9446.39,
+        "Damage Mitigated": 1692.9,
+        "Eliminations": 10.98,
+        "Deaths": 6.41,
+        "K/D Ratio": 2.44,
+        "Objective Time": 44.25,
+        "Assists": 13.46,
+        "Final Blows": 2.85
+      }
+    },
+    {
+      "name": "Kio",
+      "matches_played": 33,
+      "stats": {
+        "Damage Dealt": 10430.85,
+        "Healing Done": 106.73,
+        "Damage Mitigated": 549.27,
+        "Eliminations": 13.3,
+        "Deaths": 9.18,
+        "K/D Ratio": 1.53,
+        "Objective Time": 50.73,
+        "Assists": 0.85,
+        "Final Blows": 6.61
+      }
+    },
+    {
+      "name": "Kiwii",
+      "matches_played": 20,
+      "stats": {
+        "Damage Dealt": 5100.3,
+        "Healing Done": 11986.8,
+        "Damage Mitigated": 213.4,
+        "Eliminations": 8.6,
+        "Deaths": 7.9,
+        "K/D Ratio": 1.11,
+        "Objective Time": 47.5,
+        "Assists": 13.0,
+        "Final Blows": 2.3
+      }
+    },
+    {
+      "name": "Knife",
+      "matches_played": 41,
+      "stats": {
+        "Damage Dealt": 8573.68,
+        "Healing Done": 165.0,
+        "Damage Mitigated": 888.61,
+        "Eliminations": 21.24,
+        "Deaths": 5.8,
+        "K/D Ratio": 5.77,
+        "Objective Time": 63.22,
+        "Assists": 1.8,
+        "Final Blows": 9.49
+      }
+    },
+    {
+      "name": "Kronik",
+      "matches_played": 75,
+      "stats": {
+        "Damage Dealt": 9727.44,
+        "Healing Done": 53.09,
+        "Damage Mitigated": 93.05,
+        "Eliminations": 20.15,
+        "Deaths": 7.36,
+        "K/D Ratio": 3.94,
+        "Objective Time": 33.44,
+        "Assists": 1.24,
+        "Final Blows": 9.37
+      }
+    },
+    {
+      "name": "Kroxz",
+      "matches_played": 10,
+      "stats": {
+        "Damage Dealt": 9091.8,
+        "Healing Done": 2559.5,
+        "Damage Mitigated": 7822.3,
+        "Eliminations": 18.0,
+        "Deaths": 5.6,
+        "K/D Ratio": 5.51,
+        "Objective Time": 83.8,
+        "Assists": 2.1,
+        "Final Blows": 10.2
+      }
+    },
+    {
+      "name": "Ksaa",
+      "matches_played": 70,
+      "stats": {
+        "Damage Dealt": 11113.97,
+        "Healing Done": 1252.96,
+        "Damage Mitigated": 14528.71,
+        "Eliminations": 17.64,
+        "Deaths": 5.51,
+        "K/D Ratio": 5.16,
+        "Objective Time": 145.36,
+        "Assists": 6.91,
+        "Final Blows": 6.8
+      }
+    },
+    {
+      "name": "Landon",
+      "matches_played": 86,
+      "stats": {
+        "Damage Dealt": 4977.6,
+        "Healing Done": 12296.88,
+        "Damage Mitigated": 118.35,
+        "Eliminations": 15.48,
+        "Deaths": 5.99,
+        "K/D Ratio": 4.14,
+        "Objective Time": 47.08,
+        "Assists": 17.31,
+        "Final Blows": 4.65
+      }
+    },
+    {
+      "name": "LBBD7",
+      "matches_played": 82,
+      "stats": {
+        "Damage Dealt": 10293.77,
+        "Healing Done": 78.98,
+        "Damage Mitigated": 396.83,
+        "Eliminations": 21.26,
+        "Deaths": 6.73,
+        "K/D Ratio": 5.0,
+        "Objective Time": 48.43,
+        "Assists": 1.32,
+        "Final Blows": 9.35
+      }
+    },
+    {
+      "name": "Lbbd7",
+      "matches_played": 0,
+      "stats": {
+        "Damage Dealt": 0.0,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 0.0,
+        "Deaths": 0.0,
+        "K/D Ratio": 0.0,
+        "Objective Time": 0.0,
+        "Assists": 0.0,
+        "Final Blows": 0.0
+      }
+    },
+    {
+      "name": "Lep",
+      "matches_played": 76,
+      "stats": {
+        "Damage Dealt": 4150.84,
+        "Healing Done": 7993.66,
+        "Damage Mitigated": 1516.8,
+        "Eliminations": 14.14,
+        "Deaths": 6.17,
+        "K/D Ratio": 4.16,
+        "Objective Time": 46.39,
+        "Assists": 16.0,
+        "Final Blows": 3.45
+      }
+    },
+    {
+      "name": "Lethal",
+      "matches_played": 95,
+      "stats": {
+        "Damage Dealt": 10860.75,
+        "Healing Done": 92.57,
+        "Damage Mitigated": 75.04,
+        "Eliminations": 19.85,
+        "Deaths": 6.68,
+        "K/D Ratio": 3.88,
+        "Objective Time": 30.72,
+        "Assists": 2.17,
+        "Final Blows": 8.84
+      }
+    },
+    {
+      "name": "Lukemino",
+      "matches_played": 85,
+      "stats": {
+        "Damage Dealt": 5352.92,
+        "Healing Done": 9913.87,
+        "Damage Mitigated": 1390.65,
+        "Eliminations": 14.02,
+        "Deaths": 5.89,
+        "K/D Ratio": 4.03,
+        "Objective Time": 52.99,
+        "Assists": 17.82,
+        "Final Blows": 3.98
+      }
+    },
+    {
+      "name": "Mag",
+      "matches_played": 57,
+      "stats": {
+        "Damage Dealt": 9512.67,
+        "Healing Done": 628.88,
+        "Damage Mitigated": 9958.58,
+        "Eliminations": 17.98,
+        "Deaths": 5.25,
+        "K/D Ratio": 5.36,
+        "Objective Time": 116.16,
+        "Assists": 6.09,
+        "Final Blows": 7.11
+      }
+    },
+    {
+      "name": "Majin",
+      "matches_played": 20,
+      "stats": {
+        "Damage Dealt": 9991.9,
+        "Healing Done": 528.95,
+        "Damage Mitigated": 13784.85,
+        "Eliminations": 15.1,
+        "Deaths": 6.45,
+        "K/D Ratio": 2.65,
+        "Objective Time": 137.45,
+        "Assists": 5.85,
+        "Final Blows": 5.8
+      }
+    },
+    {
+      "name": "Natsuki",
+      "matches_played": 40,
+      "stats": {
+        "Damage Dealt": 3801.18,
+        "Healing Done": 7741.15,
+        "Damage Mitigated": 3094.2,
+        "Eliminations": 9.32,
+        "Deaths": 7.42,
+        "K/D Ratio": 1.46,
+        "Objective Time": 75.2,
+        "Assists": 13.5,
+        "Final Blows": 2.42
+      }
+    },
+    {
+      "name": "Nenwhy",
+      "matches_played": 57,
+      "stats": {
+        "Damage Dealt": 4825.93,
+        "Healing Done": 6133.32,
+        "Damage Mitigated": 2499.33,
+        "Eliminations": 13.0,
+        "Deaths": 7.42,
+        "K/D Ratio": 2.24,
+        "Objective Time": 66.44,
+        "Assists": 14.04,
+        "Final Blows": 3.37
+      }
+    },
+    {
+      "name": "Nvm",
+      "matches_played": 20,
+      "stats": {
+        "Damage Dealt": 7654.65,
+        "Healing Done": 321.85,
+        "Damage Mitigated": 1303.25,
+        "Eliminations": 14.55,
+        "Deaths": 7.55,
+        "K/D Ratio": 2.14,
+        "Objective Time": 44.5,
+        "Assists": 1.65,
+        "Final Blows": 6.45
+      }
+    },
+    {
+      "name": "One",
+      "matches_played": 12,
+      "stats": {
+        "Damage Dealt": 3004.67,
+        "Healing Done": 9911.0,
+        "Damage Mitigated": 1002.0,
+        "Eliminations": 9.08,
+        "Deaths": 5.42,
+        "K/D Ratio": 1.76,
+        "Objective Time": 62.17,
+        "Assists": 14.5,
+        "Final Blows": 2.25
+      }
+    },
+    {
+      "name": "Painkiller",
+      "matches_played": 65,
+      "stats": {
+        "Damage Dealt": 11287.15,
+        "Healing Done": 417.23,
+        "Damage Mitigated": 11257.63,
+        "Eliminations": 21.23,
+        "Deaths": 5.78,
+        "K/D Ratio": 5.87,
+        "Objective Time": 131.06,
+        "Assists": 6.58,
+        "Final Blows": 7.83
+      }
+    },
+    {
+      "name": "Pak",
+      "matches_played": 20,
+      "stats": {
+        "Damage Dealt": 8438.45,
+        "Healing Done": 205.2,
+        "Damage Mitigated": 1756.65,
+        "Eliminations": 14.8,
+        "Deaths": 7.45,
+        "K/D Ratio": 2.38,
+        "Objective Time": 82.0,
+        "Assists": 0.65,
+        "Final Blows": 6.75
+      }
+    },
+    {
+      "name": "Pdk",
+      "matches_played": 22,
+      "stats": {
+        "Damage Dealt": 7876.55,
+        "Healing Done": 195.41,
+        "Damage Mitigated": 573.0,
+        "Eliminations": 10.86,
+        "Deaths": 8.41,
+        "K/D Ratio": 1.34,
+        "Objective Time": 32.45,
+        "Assists": 0.55,
+        "Final Blows": 5.36
+      }
+    },
+    {
+      "name": "Peace",
+      "matches_played": 34,
+      "stats": {
+        "Damage Dealt": 7672.0,
+        "Healing Done": 285.03,
+        "Damage Mitigated": 1414.56,
+        "Eliminations": 15.91,
+        "Deaths": 6.68,
+        "K/D Ratio": 2.68,
+        "Objective Time": 82.5,
+        "Assists": 0.47,
+        "Final Blows": 7.09
+      }
+    },
+    {
+      "name": "Pela",
+      "matches_played": 18,
+      "stats": {
+        "Damage Dealt": 7630.89,
+        "Healing Done": 2785.89,
+        "Damage Mitigated": 4776.44,
+        "Eliminations": 18.72,
+        "Deaths": 5.28,
+        "K/D Ratio": 6.6,
+        "Objective Time": 64.44,
+        "Assists": 10.28,
+        "Final Blows": 6.0
+      }
+    },
+    {
+      "name": "Prota",
+      "matches_played": 21,
+      "stats": {
+        "Damage Dealt": 3356.52,
+        "Healing Done": 7898.33,
+        "Damage Mitigated": 162.33,
+        "Eliminations": 6.19,
+        "Deaths": 7.0,
+        "K/D Ratio": 1.13,
+        "Objective Time": 20.05,
+        "Assists": 8.86,
+        "Final Blows": 1.76
+      }
+    },
+    {
+      "name": "Qlmaz",
+      "matches_played": 0,
+      "stats": {
+        "Damage Dealt": 0.0,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 0.0,
+        "Deaths": 0.0,
+        "K/D Ratio": 0.0,
+        "Objective Time": 0.0,
+        "Assists": 0.0,
+        "Final Blows": 0.0
+      }
+    },
+    {
+      "name": "Quartz",
+      "matches_played": 85,
+      "stats": {
+        "Damage Dealt": 9964.36,
+        "Healing Done": 11.78,
+        "Damage Mitigated": 88.01,
+        "Eliminations": 17.94,
+        "Deaths": 5.42,
+        "K/D Ratio": 4.73,
+        "Objective Time": 20.29,
+        "Assists": 0.86,
+        "Final Blows": 8.4
+      }
+    },
+    {
+      "name": "Raikker",
+      "matches_played": 33,
+      "stats": {
+        "Damage Dealt": 10590.88,
+        "Healing Done": 824.33,
+        "Damage Mitigated": 9823.73,
+        "Eliminations": 22.48,
+        "Deaths": 5.12,
+        "K/D Ratio": 8.33,
+        "Objective Time": 112.73,
+        "Assists": 7.33,
+        "Final Blows": 7.79
+      }
+    },
+    {
+      "name": "Rajeem",
+      "matches_played": 19,
+      "stats": {
+        "Damage Dealt": 3790.89,
+        "Healing Done": 7283.16,
+        "Damage Mitigated": 1368.53,
+        "Eliminations": 8.74,
+        "Deaths": 6.68,
+        "K/D Ratio": 1.45,
+        "Objective Time": 45.89,
+        "Assists": 8.79,
+        "Final Blows": 2.32
+      }
+    },
+    {
+      "name": "Redex",
+      "matches_played": 28,
+      "stats": {
+        "Damage Dealt": 4273.25,
+        "Healing Done": 6560.21,
+        "Damage Mitigated": 1125.79,
+        "Eliminations": 10.57,
+        "Deaths": 8.89,
+        "K/D Ratio": 1.21,
+        "Objective Time": 49.71,
+        "Assists": 9.18,
+        "Final Blows": 3.18
+      }
+    },
+    {
+      "name": "Renko",
+      "matches_played": 21,
+      "stats": {
+        "Damage Dealt": 4359.29,
+        "Healing Done": 11905.14,
+        "Damage Mitigated": 318.43,
+        "Eliminations": 10.9,
+        "Deaths": 6.0,
+        "K/D Ratio": 2.46,
+        "Objective Time": 36.9,
+        "Assists": 12.81,
+        "Final Blows": 2.81
+      }
+    },
+    {
+      "name": "Rhyno",
+      "matches_played": 7,
+      "stats": {
+        "Damage Dealt": 9655.14,
+        "Healing Done": 425.43,
+        "Damage Mitigated": 7609.29,
+        "Eliminations": 21.29,
+        "Deaths": 4.14,
+        "K/D Ratio": 8.36,
+        "Objective Time": 73.86,
+        "Assists": 5.29,
+        "Final Blows": 8.14
+      }
+    },
+    {
+      "name": "Rokit",
+      "matches_played": 85,
+      "stats": {
+        "Damage Dealt": 8607.8,
+        "Healing Done": 121.75,
+        "Damage Mitigated": 801.19,
+        "Eliminations": 21.88,
+        "Deaths": 5.71,
+        "K/D Ratio": 6.5,
+        "Objective Time": 84.2,
+        "Assists": 0.62,
+        "Final Blows": 8.96
+      }
+    },
+    {
+      "name": "Rupal",
+      "matches_played": 79,
+      "stats": {
+        "Damage Dealt": 4484.72,
+        "Healing Done": 11370.76,
+        "Damage Mitigated": 462.46,
+        "Eliminations": 14.41,
+        "Deaths": 5.27,
+        "K/D Ratio": 4.47,
+        "Objective Time": 46.16,
+        "Assists": 17.72,
+        "Final Blows": 3.71
+      }
+    },
+    {
+      "name": "Ryan",
+      "matches_played": 23,
+      "stats": {
+        "Damage Dealt": 7194.22,
+        "Healing Done": 162.57,
+        "Damage Mitigated": 553.3,
+        "Eliminations": 17.43,
+        "Deaths": 6.87,
+        "K/D Ratio": 2.74,
+        "Objective Time": 74.57,
+        "Assists": 0.0,
+        "Final Blows": 8.3
+      }
+    },
+    {
+      "name": "Rzr",
+      "matches_played": 28,
+      "stats": {
+        "Damage Dealt": 7013.68,
+        "Healing Done": 285.04,
+        "Damage Mitigated": 1235.82,
+        "Eliminations": 12.71,
+        "Deaths": 7.36,
+        "K/D Ratio": 1.79,
+        "Objective Time": 50.82,
+        "Assists": 1.46,
+        "Final Blows": 4.75
+      }
+    },
+    {
+      "name": "S9mm",
+      "matches_played": 0,
+      "stats": {
+        "Damage Dealt": 0.0,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 0.0,
+        "Deaths": 0.0,
+        "K/D Ratio": 0.0,
+        "Objective Time": 0.0,
+        "Assists": 0.0,
+        "Final Blows": 0.0
+      }
+    },
+    {
+      "name": "Sauna",
+      "matches_played": 30,
+      "stats": {
+        "Damage Dealt": 8423.6,
+        "Healing Done": 41.93,
+        "Damage Mitigated": 718.67,
+        "Eliminations": 19.43,
+        "Deaths": 6.3,
+        "K/D Ratio": 4.74,
+        "Objective Time": 66.07,
+        "Assists": 0.97,
+        "Final Blows": 7.2
+      }
+    },
+    {
+      "name": "Scissors",
+      "matches_played": 0,
+      "stats": {
+        "Damage Dealt": 0.0,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 0.0,
+        "Deaths": 0.0,
+        "K/D Ratio": 0.0,
+        "Objective Time": 0.0,
+        "Assists": 0.0,
+        "Final Blows": 0.0
+      }
+    },
+    {
+      "name": "Scuffed",
+      "matches_played": 62,
+      "stats": {
+        "Damage Dealt": 4691.23,
+        "Healing Done": 10504.58,
+        "Damage Mitigated": 135.81,
+        "Eliminations": 12.89,
+        "Deaths": 7.66,
+        "K/D Ratio": 2.08,
+        "Objective Time": 44.65,
+        "Assists": 15.18,
+        "Final Blows": 3.37
+      }
+    },
+    {
+      "name": "Scyle",
+      "matches_played": 11,
+      "stats": {
+        "Damage Dealt": 5419.45,
+        "Healing Done": 10272.18,
+        "Damage Mitigated": 469.82,
+        "Eliminations": 9.18,
+        "Deaths": 5.09,
+        "K/D Ratio": 2.19,
+        "Objective Time": 42.45,
+        "Assists": 12.27,
+        "Final Blows": 2.82
+      }
+    },
+    {
+      "name": "Seeker",
+      "matches_played": 79,
+      "stats": {
+        "Damage Dealt": 10009.68,
+        "Healing Done": 51.63,
+        "Damage Mitigated": 198.71,
+        "Eliminations": 20.23,
+        "Deaths": 6.85,
+        "K/D Ratio": 4.5,
+        "Objective Time": 35.53,
+        "Assists": 1.46,
+        "Final Blows": 8.53
+      }
+    },
+    {
+      "name": "Seicoe",
+      "matches_played": 56,
+      "stats": {
+        "Damage Dealt": 7619.41,
+        "Healing Done": 110.93,
+        "Damage Mitigated": 806.09,
+        "Eliminations": 17.96,
+        "Deaths": 3.82,
+        "K/D Ratio": 6.82,
+        "Objective Time": 56.96,
+        "Assists": 1.09,
+        "Final Blows": 7.07
+      }
+    },
+    {
+      "name": "Shockwave",
+      "matches_played": 80,
+      "stats": {
+        "Damage Dealt": 11266.16,
+        "Healing Done": 0.33,
+        "Damage Mitigated": 168.12,
+        "Eliminations": 19.16,
+        "Deaths": 6.04,
+        "K/D Ratio": 3.93,
+        "Objective Time": 42.16,
+        "Assists": 0.99,
+        "Final Blows": 7.89
+      }
+    },
+    {
+      "name": "Simple",
+      "matches_played": 81,
+      "stats": {
+        "Damage Dealt": 5297.23,
+        "Healing Done": 9933.01,
+        "Damage Mitigated": 831.26,
+        "Eliminations": 12.26,
+        "Deaths": 5.73,
+        "K/D Ratio": 3.07,
+        "Objective Time": 41.7,
+        "Assists": 15.12,
+        "Final Blows": 3.89
+      }
+    },
+    {
+      "name": "Skai",
+      "matches_played": 76,
+      "stats": {
+        "Damage Dealt": 3908.97,
+        "Healing Done": 10008.49,
+        "Damage Mitigated": 675.63,
+        "Eliminations": 10.96,
+        "Deaths": 6.18,
+        "K/D Ratio": 2.33,
+        "Objective Time": 36.33,
+        "Assists": 15.49,
+        "Final Blows": 2.83
+      }
+    },
+    {
+      "name": "Skytorr",
+      "matches_played": 13,
+      "stats": {
+        "Damage Dealt": 7921.08,
+        "Healing Done": 171.15,
+        "Damage Mitigated": 10810.08,
+        "Eliminations": 13.46,
+        "Deaths": 8.0,
+        "K/D Ratio": 1.98,
+        "Objective Time": 61.69,
+        "Assists": 2.31,
+        "Final Blows": 6.38
+      }
+    },
+    {
+      "name": "Slowdive",
+      "matches_played": 23,
+      "stats": {
+        "Damage Dealt": 9665.35,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 74.57,
+        "Eliminations": 17.13,
+        "Deaths": 7.65,
+        "K/D Ratio": 2.48,
+        "Objective Time": 33.52,
+        "Assists": 2.61,
+        "Final Blows": 7.83
+      }
+    },
+    {
+      "name": "Snowdrop",
+      "matches_played": 10,
+      "stats": {
+        "Damage Dealt": 7222.6,
+        "Healing Done": 161.4,
+        "Damage Mitigated": 83.0,
+        "Eliminations": 9.1,
+        "Deaths": 9.0,
+        "K/D Ratio": 0.99,
+        "Objective Time": 30.6,
+        "Assists": 1.4,
+        "Final Blows": 4.9
+      }
+    },
+    {
+      "name": "Solo",
+      "matches_played": 19,
+      "stats": {
+        "Damage Dealt": 9374.21,
+        "Healing Done": 754.84,
+        "Damage Mitigated": 7889.42,
+        "Eliminations": 11.74,
+        "Deaths": 7.32,
+        "K/D Ratio": 1.73,
+        "Objective Time": 82.53,
+        "Assists": 4.37,
+        "Final Blows": 4.42
+      }
+    },
+    {
+      "name": "Solozen",
+      "matches_played": 3,
+      "stats": {
+        "Damage Dealt": 2378.67,
+        "Healing Done": 11287.67,
+        "Damage Mitigated": 134.0,
+        "Eliminations": 3.33,
+        "Deaths": 3.67,
+        "K/D Ratio": 2.0,
+        "Objective Time": 20.67,
+        "Assists": 7.33,
+        "Final Blows": 0.67
+      }
+    },
+    {
+      "name": "Soon",
+      "matches_played": 10,
+      "stats": {
+        "Damage Dealt": 6975.1,
+        "Healing Done": 12.9,
+        "Damage Mitigated": 276.7,
+        "Eliminations": 11.6,
+        "Deaths": 7.0,
+        "K/D Ratio": 1.8,
+        "Objective Time": 59.9,
+        "Assists": 0.3,
+        "Final Blows": 4.8
+      }
+    },
+    {
+      "name": "Squid",
+      "matches_played": 46,
+      "stats": {
+        "Damage Dealt": 5381.09,
+        "Healing Done": 10751.85,
+        "Damage Mitigated": 439.04,
+        "Eliminations": 16.57,
+        "Deaths": 5.63,
+        "K/D Ratio": 5.19,
+        "Objective Time": 43.41,
+        "Assists": 15.96,
+        "Final Blows": 4.59
+      }
+    },
+    {
+      "name": "Strebor",
+      "matches_played": 26,
+      "stats": {
+        "Damage Dealt": 3809.42,
+        "Healing Done": 5041.46,
+        "Damage Mitigated": 1493.65,
+        "Eliminations": 8.0,
+        "Deaths": 6.92,
+        "K/D Ratio": 1.17,
+        "Objective Time": 38.04,
+        "Assists": 8.62,
+        "Final Blows": 2.38
+      }
+    },
+    {
+      "name": "Sugarfree",
+      "matches_played": 82,
+      "stats": {
+        "Damage Dealt": 8242.74,
+        "Healing Done": 104.35,
+        "Damage Mitigated": 631.04,
+        "Eliminations": 21.94,
+        "Deaths": 4.56,
+        "K/D Ratio": 8.52,
+        "Objective Time": 69.4,
+        "Assists": 1.02,
+        "Final Blows": 10.07
+      }
+    },
+    {
+      "name": "Sxj",
+      "matches_played": 10,
+      "stats": {
+        "Damage Dealt": 6374.0,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 359.2,
+        "Eliminations": 15.0,
+        "Deaths": 5.4,
+        "K/D Ratio": 3.83,
+        "Objective Time": 67.4,
+        "Assists": 0.1,
+        "Final Blows": 6.1
+      }
+    },
+    {
+      "name": "Taejong",
+      "matches_played": 23,
+      "stats": {
+        "Damage Dealt": 8582.83,
+        "Healing Done": 23.96,
+        "Damage Mitigated": 1491.35,
+        "Eliminations": 18.39,
+        "Deaths": 6.57,
+        "K/D Ratio": 3.43,
+        "Objective Time": 59.3,
+        "Assists": 0.35,
+        "Final Blows": 8.83
+      }
+    },
+    {
+      "name": "Tama",
+      "matches_played": 7,
+      "stats": {
+        "Damage Dealt": 11210.43,
+        "Healing Done": 194.0,
+        "Damage Mitigated": 11098.14,
+        "Eliminations": 19.57,
+        "Deaths": 7.0,
+        "K/D Ratio": 3.98,
+        "Objective Time": 123.43,
+        "Assists": 7.71,
+        "Final Blows": 8.43
+      }
+    },
+    {
+      "name": "Topdragon",
+      "matches_played": 30,
+      "stats": {
+        "Damage Dealt": 9444.07,
+        "Healing Done": 64.4,
+        "Damage Mitigated": 1541.8,
+        "Eliminations": 18.27,
+        "Deaths": 7.83,
+        "K/D Ratio": 3.3,
+        "Objective Time": 52.87,
+        "Assists": 1.4,
+        "Final Blows": 8.47
+      }
+    },
+    {
+      "name": "Tr33",
+      "matches_played": 79,
+      "stats": {
+        "Damage Dealt": 10258.94,
+        "Healing Done": 49.43,
+        "Damage Mitigated": 226.16,
+        "Eliminations": 20.75,
+        "Deaths": 6.24,
+        "K/D Ratio": 4.99,
+        "Objective Time": 35.35,
+        "Assists": 1.68,
+        "Final Blows": 9.04
+      }
+    },
+    {
+      "name": "Tred",
+      "matches_played": 47,
+      "stats": {
+        "Damage Dealt": 9951.02,
+        "Healing Done": 85.64,
+        "Damage Mitigated": 9986.0,
+        "Eliminations": 18.62,
+        "Deaths": 6.34,
+        "K/D Ratio": 4.14,
+        "Objective Time": 114.09,
+        "Assists": 6.09,
+        "Final Blows": 8.06
+      }
+    },
+    {
+      "name": "Tvnt",
+      "matches_played": 23,
+      "stats": {
+        "Damage Dealt": 8075.74,
+        "Healing Done": 186.04,
+        "Damage Mitigated": 11589.7,
+        "Eliminations": 20.26,
+        "Deaths": 3.09,
+        "K/D Ratio": 10.63,
+        "Objective Time": 75.61,
+        "Assists": 7.7,
+        "Final Blows": 8.65
+      }
+    },
+    {
+      "name": "Twilight",
+      "matches_played": 41,
+      "stats": {
+        "Damage Dealt": 4735.46,
+        "Healing Done": 8123.85,
+        "Damage Mitigated": 969.56,
+        "Eliminations": 10.61,
+        "Deaths": 7.15,
+        "K/D Ratio": 1.67,
+        "Objective Time": 35.05,
+        "Assists": 12.85,
+        "Final Blows": 3.2
+      }
+    },
+    {
+      "name": "Twolzz",
+      "matches_played": 11,
+      "stats": {
+        "Damage Dealt": 11512.45,
+        "Healing Done": 278.55,
+        "Damage Mitigated": 14555.91,
+        "Eliminations": 22.0,
+        "Deaths": 7.82,
+        "K/D Ratio": 5.13,
+        "Objective Time": 135.09,
+        "Assists": 4.73,
+        "Final Blows": 8.18
+      }
+    },
+    {
+      "name": "Ultraviolet",
+      "matches_played": 95,
+      "stats": {
+        "Damage Dealt": 5309.29,
+        "Healing Done": 10562.81,
+        "Damage Mitigated": 585.24,
+        "Eliminations": 15.07,
+        "Deaths": 5.42,
+        "K/D Ratio": 3.97,
+        "Objective Time": 39.72,
+        "Assists": 15.11,
+        "Final Blows": 4.32
+      }
+    },
+    {
+      "name": "V1ctory",
+      "matches_played": 0,
+      "stats": {
+        "Damage Dealt": 0.0,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 0.0,
+        "Deaths": 0.0,
+        "K/D Ratio": 0.0,
+        "Objective Time": 0.0,
+        "Assists": 0.0,
+        "Final Blows": 0.0
+      }
+    },
+    {
+      "name": "Vega",
+      "matches_played": 79,
+      "stats": {
+        "Damage Dealt": 4812.18,
+        "Healing Done": 6978.32,
+        "Damage Mitigated": 2018.48,
+        "Eliminations": 15.15,
+        "Deaths": 5.66,
+        "K/D Ratio": 4.38,
+        "Objective Time": 58.09,
+        "Assists": 16.41,
+        "Final Blows": 4.19
+      }
+    },
+    {
+      "name": "Vestola",
+      "matches_played": 71,
+      "stats": {
+        "Damage Dealt": 11657.34,
+        "Healing Done": 909.94,
+        "Damage Mitigated": 12562.87,
+        "Eliminations": 22.86,
+        "Deaths": 5.49,
+        "K/D Ratio": 5.9,
+        "Objective Time": 130.37,
+        "Assists": 10.62,
+        "Final Blows": 7.66
+      }
+    },
+    {
+      "name": "Viol2t",
+      "matches_played": 7,
+      "stats": {
+        "Damage Dealt": 9197.71,
+        "Healing Done": 9616.57,
+        "Damage Mitigated": 632.0,
+        "Eliminations": 16.14,
+        "Deaths": 7.43,
+        "K/D Ratio": 2.49,
+        "Objective Time": 72.14,
+        "Assists": 10.0,
+        "Final Blows": 5.29
+      }
+    },
+    {
+      "name": "Vision",
+      "matches_played": 7,
+      "stats": {
+        "Damage Dealt": 8394.57,
+        "Healing Done": 558.0,
+        "Damage Mitigated": 0.0,
+        "Eliminations": 11.0,
+        "Deaths": 7.86,
+        "K/D Ratio": 1.34,
+        "Objective Time": 37.0,
+        "Assists": 2.14,
+        "Final Blows": 4.57
+      }
+    },
+    {
+      "name": "Whoru",
+      "matches_played": 23,
+      "stats": {
+        "Damage Dealt": 6955.91,
+        "Healing Done": 116.22,
+        "Damage Mitigated": 584.39,
+        "Eliminations": 15.35,
+        "Deaths": 6.61,
+        "K/D Ratio": 2.68,
+        "Objective Time": 45.0,
+        "Assists": 1.04,
+        "Final Blows": 6.7
+      }
+    },
+    {
+      "name": "Willys",
+      "matches_played": 33,
+      "stats": {
+        "Damage Dealt": 9846.39,
+        "Healing Done": 368.55,
+        "Damage Mitigated": 12505.15,
+        "Eliminations": 18.48,
+        "Deaths": 6.12,
+        "K/D Ratio": 3.73,
+        "Objective Time": 115.58,
+        "Assists": 5.88,
+        "Final Blows": 7.97
+      }
+    },
+    {
+      "name": "Winter",
+      "matches_played": 22,
+      "stats": {
+        "Damage Dealt": 7797.82,
+        "Healing Done": 54.91,
+        "Damage Mitigated": 284.32,
+        "Eliminations": 14.59,
+        "Deaths": 7.0,
+        "K/D Ratio": 2.12,
+        "Objective Time": 36.59,
+        "Assists": 1.59,
+        "Final Blows": 6.91
+      }
+    },
+    {
+      "name": "Wmaimone",
+      "matches_played": 49,
+      "stats": {
+        "Damage Dealt": 8434.41,
+        "Healing Done": 415.73,
+        "Damage Mitigated": 1054.9,
+        "Eliminations": 20.0,
+        "Deaths": 4.94,
+        "K/D Ratio": 6.13,
+        "Objective Time": 38.63,
+        "Assists": 2.55,
+        "Final Blows": 8.67
+      }
+    },
+    {
+      "name": "Wub",
+      "matches_played": 49,
+      "stats": {
+        "Damage Dealt": 8646.0,
+        "Healing Done": 31.51,
+        "Damage Mitigated": 206.27,
+        "Eliminations": 16.37,
+        "Deaths": 7.57,
+        "K/D Ratio": 2.9,
+        "Objective Time": 35.1,
+        "Assists": 1.0,
+        "Final Blows": 7.55
+      }
+    },
+    {
+      "name": "Xeriongdh",
+      "matches_played": 67,
+      "stats": {
+        "Damage Dealt": 4509.01,
+        "Healing Done": 12202.84,
+        "Damage Mitigated": 300.97,
+        "Eliminations": 12.61,
+        "Deaths": 5.81,
+        "K/D Ratio": 2.9,
+        "Objective Time": 44.46,
+        "Assists": 16.12,
+        "Final Blows": 3.33
+      }
+    },
+    {
+      "name": "Xomba",
+      "matches_played": 45,
+      "stats": {
+        "Damage Dealt": 7795.42,
+        "Healing Done": 18.42,
+        "Damage Mitigated": 1140.31,
+        "Eliminations": 19.71,
+        "Deaths": 6.67,
+        "K/D Ratio": 4.53,
+        "Objective Time": 64.67,
+        "Assists": 0.24,
+        "Final Blows": 8.67
+      }
+    },
+    {
+      "name": "Xten",
+      "matches_played": 29,
+      "stats": {
+        "Damage Dealt": 11876.9,
+        "Healing Done": 91.17,
+        "Damage Mitigated": 41.24,
+        "Eliminations": 16.45,
+        "Deaths": 7.1,
+        "K/D Ratio": 2.85,
+        "Objective Time": 34.21,
+        "Assists": 0.34,
+        "Final Blows": 7.66
+      }
+    },
+    {
+      "name": "Xzodyal",
+      "matches_played": 68,
+      "stats": {
+        "Damage Dealt": 10565.5,
+        "Healing Done": 18.4,
+        "Damage Mitigated": 141.81,
+        "Eliminations": 16.93,
+        "Deaths": 6.53,
+        "K/D Ratio": 3.72,
+        "Objective Time": 35.21,
+        "Assists": 0.9,
+        "Final Blows": 7.65
+      }
+    },
+    {
+      "name": "Yoham",
+      "matches_played": 40,
+      "stats": {
+        "Damage Dealt": 4224.6,
+        "Healing Done": 12190.25,
+        "Damage Mitigated": 223.03,
+        "Eliminations": 11.32,
+        "Deaths": 7.38,
+        "K/D Ratio": 1.85,
+        "Objective Time": 46.52,
+        "Assists": 13.05,
+        "Final Blows": 3.15
+      }
+    },
+    {
+      "name": "Youbi",
+      "matches_played": 23,
+      "stats": {
+        "Damage Dealt": 7887.7,
+        "Healing Done": 300.61,
+        "Damage Mitigated": 3881.78,
+        "Eliminations": 16.39,
+        "Deaths": 6.22,
+        "K/D Ratio": 3.66,
+        "Objective Time": 65.05,
+        "Assists": 4.52,
+        "Final Blows": 6.18
+      }
+    },
+    {
+      "name": "Zeb",
+      "matches_played": 11,
+      "stats": {
+        "Damage Dealt": 9439.18,
+        "Healing Done": 220.82,
+        "Damage Mitigated": 7466.82,
+        "Eliminations": 18.27,
+        "Deaths": 4.82,
+        "K/D Ratio": 5.75,
+        "Objective Time": 94.27,
+        "Assists": 6.55,
+        "Final Blows": 7.0
+      }
+    },
+    {
+      "name": "Zeruhh",
+      "matches_played": 83,
+      "stats": {
+        "Damage Dealt": 8417.08,
+        "Healing Done": 84.4,
+        "Damage Mitigated": 796.19,
+        "Eliminations": 21.9,
+        "Deaths": 5.24,
+        "K/D Ratio": 5.95,
+        "Objective Time": 68.0,
+        "Assists": 0.22,
+        "Final Blows": 10.12
+      }
+    },
+    {
+      "name": "Ziyad",
+      "matches_played": 75,
+      "stats": {
+        "Damage Dealt": 10362.39,
+        "Healing Done": 914.81,
+        "Damage Mitigated": 13160.24,
+        "Eliminations": 22.65,
+        "Deaths": 5.05,
+        "K/D Ratio": 7.0,
+        "Objective Time": 106.51,
+        "Assists": 10.75,
+        "Final Blows": 8.19
+      }
+    },
+    {
+      "name": "Zorrow",
+      "matches_played": 31,
+      "stats": {
+        "Damage Dealt": 7984.03,
+        "Healing Done": 110.39,
+        "Damage Mitigated": 139.77,
+        "Eliminations": 13.03,
+        "Deaths": 7.58,
+        "K/D Ratio": 1.77,
+        "Objective Time": 26.03,
+        "Assists": 1.16,
+        "Final Blows": 5.77
+      }
+    },
+    {
+      "name": "Zox",
+      "matches_played": 12,
+      "stats": {
+        "Damage Dealt": 3772.0,
+        "Healing Done": 10920.83,
+        "Damage Mitigated": 94.67,
+        "Eliminations": 11.08,
+        "Deaths": 6.17,
+        "K/D Ratio": 2.33,
+        "Objective Time": 39.42,
+        "Assists": 12.25,
+        "Final Blows": 3.42
+      }
+    },
+    {
+      "name": "Zydra",
+      "matches_played": 25,
+      "stats": {
+        "Damage Dealt": 11783.64,
+        "Healing Done": 0.0,
+        "Damage Mitigated": 3.88,
+        "Eliminations": 17.36,
+        "Deaths": 7.52,
+        "K/D Ratio": 2.76,
+        "Objective Time": 33.28,
+        "Assists": 0.44,
+        "Final Blows": 8.04
+      }
+    },
+    {
+      "name": "Zzz",
+      "matches_played": 62,
+      "stats": {
+        "Damage Dealt": 3819.74,
+        "Healing Done": 12959.56,
+        "Damage Mitigated": 99.19,
+        "Eliminations": 10.71,
+        "Deaths": 6.63,
+        "K/D Ratio": 2.22,
+        "Objective Time": 48.37,
+        "Assists": 16.11,
+        "Final Blows": 2.65
+      }
+    }
+  ]
+}
