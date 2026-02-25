@@ -14,6 +14,3 @@ todos.json
 
 # Local Netlify folder
 .netlify
-
-# ONNX model
-*.onnx
