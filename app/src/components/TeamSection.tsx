@@ -10,6 +10,8 @@ type TeamSectionProps = {
   excludedPlayers: string[]
   onAddPlayer: (player: Player) => void
   onRemovePlayer: (playerName: string) => void
+  isWinner?: boolean
+  onResetTeam?: () => void
 }
 
 export function TeamSection({
@@ -20,14 +22,34 @@ export function TeamSection({
   excludedPlayers,
   onAddPlayer,
   onRemovePlayer,
+  isWinner = false,
+  onResetTeam,
 }: TeamSectionProps) {
   return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <h2 className={`text-2xl font-bold ${colorClass}`}>{title}</h2>
-        <span className="text-sm text-muted-foreground">
-          {players.length}/5 players
-        </span>
+    <div className="relative space-y-4">
+      {isWinner && (
+        <div className="pointer-events-none absolute -right-1 -top-3 rotate-12 text-2xl drop-shadow-sm sm:-right-2 sm:-top-4 sm:text-3xl">
+          👑
+        </div>
+      )}
+      <div className="flex items-center justify-between gap-3">
+        <div>
+          <h2 className={`text-2xl font-bold ${colorClass}`}>{title}</h2>
+          <span className="text-sm text-muted-foreground">
+            {players.length}/5 players
+          </span>
+        </div>
+        {onResetTeam && (
+          <Button
+            variant="outline"
+            size="sm"
+            className="whitespace-nowrap text-xs sm:text-sm"
+            onClick={onResetTeam}
+            disabled={players.length === 0}
+          >
+            Reset team
+          </Button>
+        )}
       </div>
 
       {players.length < 5 && (

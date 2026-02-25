@@ -33,6 +33,11 @@ function App() {
   })
   const [result, setResult] = useState<PredictionResult | null>(null)
 
+  const team1IsWinner =
+    result && result.team1WinProbability > result.team2WinProbability
+  const team2IsWinner =
+    result && result.team2WinProbability > result.team1WinProbability
+
   const predict = useMutation({
     mutationFn: async () => {
       const res = await fetch('/api/predict', {
@@ -119,6 +124,26 @@ function App() {
     })
   }
 
+  const resetTeam1 = () => {
+    setTeam1([])
+    setTeam1Roles({
+      Tank: 0,
+      Damage: 0,
+      Support: 0,
+    })
+    setResult(null)
+  }
+
+  const resetTeam2 = () => {
+    setTeam2([])
+    setTeam2Roles({
+      Tank: 0,
+      Damage: 0,
+      Support: 0,
+    })
+    setResult(null)
+  }
+
   return (
     <div className="space-y-8">
       <section className="rounded-2xl border bg-card/80 p-5 shadow-sm backdrop-blur sm:p-6">
@@ -150,6 +175,8 @@ function App() {
           excludedPlayers={allSelectedPlayers}
           onAddPlayer={addToTeam1}
           onRemovePlayer={removeFromTeam1}
+          isWinner={!!team1IsWinner}
+          onResetTeam={resetTeam1}
         />
 
         <TeamSection
@@ -160,6 +187,8 @@ function App() {
           excludedPlayers={allSelectedPlayers}
           onAddPlayer={addToTeam2}
           onRemovePlayer={removeFromTeam2}
+          isWinner={!!team2IsWinner}
+          onResetTeam={resetTeam2}
         />
       </section>
 
