@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { join } from 'node:path'
 
-// Player type must match client (no import from #/ to avoid client bundle)
+// Player type must match client
 type PlayerStats = {
   'Damage Dealt': number
   'Healing Done': number
@@ -16,7 +16,7 @@ type PlayerStats = {
 
 type Player = { name: string; matches_played: number; stats: PlayerStats }
 
-// ONNX input names from the exported sklearn pipeline (notebook)
+// ONNX input names from the exported sklearn pipeline
 const DIFF_INPUT_NAMES = [
   'Damage_Dealt_10m_hist_diff',
   'Eliminations_10m_hist_diff',
@@ -81,14 +81,15 @@ export const Route = createFileRoute('/api/predict')({
           )
         }
 
-        // Model path: use app/public by default so the model is deployed with the app
-        const modelPath =
-          process.env.ONNX_MODEL_PATH ??
-          join(process.cwd(), 'public', 'match_prediction_model.onnx')
+        const modelPath = join(
+          process.cwd(),
+          'public',
+          'match_prediction_model.onnx',
+        )
         const session = await ort.InferenceSession.create(modelPath)
         const { diffFloats } = buildFeatures(team1, team2)
 
-        const feed: Record<string, unknown> = {}
+        const feed: Record<string, any> = {}
         for (let i = 0; i < DIFF_INPUT_NAMES.length; i++) {
           feed[DIFF_INPUT_NAMES[i]] = new ort.Tensor(
             'float32',
@@ -96,10 +97,10 @@ export const Route = createFileRoute('/api/predict')({
             [1, 1],
           )
         }
-        feed['phase'] = new ort.Tensor('string', ['control'], [1, 1])
-        feed['stage'] = new ort.Tensor('string', ['group'], [1, 1])
+        // Though these features doesnt really affect the prediction, we need to provide them anyway to prevent onnx from crashing
+        feed['phase'] = new ort.Tensor('string', ['Control'], [1, 1])
+        feed['stage'] = new ort.Tensor('string', ['Group'], [1, 1])
 
-        // Only request tensor outputs (onnxruntime-node does not support non-tensor outputs like ZipMap)
         const outputNames = session.outputNames as string[]
         const outputMetadata = (session as any).outputMetadata as
           | { isTensor: boolean }[]
@@ -112,37 +113,15 @@ export const Route = createFileRoute('/api/predict')({
           )
         }
 
-        // Prefer the second tensor output as probabilities if available, otherwise fall back to the first (label)
         const mainOutputName = tensorOutputNames[1] ?? tensorOutputNames[0]
 
         const results = await session.run(feed, [mainOutputName])
         const tensor = results[mainOutputName] as { data: unknown }
-        const data = tensor.data as any
+        const data = tensor.data as Float32Array
 
-        let team1WinProbability: number
-        if (Array.isArray(data) || data instanceof Float32Array) {
-          // Probability tensor: shape [1, 2] flattened to length 2 -> [P(class0), P(class1)]
-          if (data.length >= 2) {
-            team1WinProbability = Number(data[1])
-          } else {
-            // Single value, treat as label 0/1
-            const raw = data[0]
-            const label =
-              typeof raw === 'bigint' ? Number(raw) : Number(raw ?? 0)
-            team1WinProbability = label === 1 ? 1 : 0
-          }
-        } else {
-          // Fallback: treat as label tensor with first element 0/1
-          const raw = (data as any)[0]
-          const label =
-            typeof raw === 'bigint' ? Number(raw) : Number(raw ?? 0)
-          team1WinProbability = label === 1 ? 1 : 0
-        }
-
-        return Response.json({
-          team1WinProbability: Number(team1WinProbability),
-          team2WinProbability: 1 - Number(team1WinProbability),
-        })
+        const team1WinProbability = Number(data[1])
+        const team2WinProbability = Number(data[0])
+        return Response.json({ team1WinProbability, team2WinProbability })
       },
     },
   },
