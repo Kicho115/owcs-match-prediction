@@ -2,6 +2,8 @@
 
 A machine learning system that predicts the winner of custom 5v5 owcs matchups based on the statistical profiles of the ten participating players. Instead of relying on preexisting teams, the model constructs team-level representations from individual player metrics and learns strength differentials between two dynamically formed compositions.
 
+See a [Live Preview here](https://699ee5dbd82f450008b09244--owcs-predictor.netlify.app/)
+
 ## Architecture
 
 The core model is developed in the `notebook/` directory, where a full scikit-learn `Pipeline` (preprocessing + classifier) is trained and then exported as an ONNX model. That ONNX artifact is saved as `match_prediction_model.onnx` and loaded at runtime by the Node.js API using `onnxruntime-node`.
