@@ -9,6 +9,12 @@ import tailwindcss from '@tailwindcss/vite'
 import netlify from '@netlify/vite-plugin-tanstack-start'
 
 const config = defineConfig({
+  optimizeDeps: {
+    exclude: ['onnxruntime-node'],
+  },
+  ssr: {
+    external: ['onnxruntime-node'],
+  },
   plugins: [
     devtools(),
     netlify(),
