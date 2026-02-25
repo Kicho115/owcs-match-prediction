@@ -83,7 +83,7 @@ export const Route = createFileRoute('/api/predict')({
 
         const modelPath = join(
           process.cwd(),
-          'public',
+          'server-models',
           'match_prediction_model.onnx',
         )
         const session = await ort.InferenceSession.create(modelPath)

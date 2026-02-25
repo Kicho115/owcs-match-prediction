@@ -20,9 +20,8 @@ The frontend is built with TanStack React Start (Router + Query) and Vite. Hones
    ```
 
 2. **Place the model file**
-   - The API expects the ONNX model file to be available at `public/match_prediction_model.onnx` relative to the app.
-   - Export from the notebokk or obtain the model from drive and save it as `match_prediction_model.onnx`.
-   - Copy it into the `app/public/` directory so the runtime can load it.
+   - The API expects the ONNX model file to be available at `server-models/match_prediction_model.onnx` relative to the app. So create a `server-models/` directory inside `app/` and copy the model into `app/server-models/`
+   - Export from the notebook or obtain the model from drive and save it as `match_prediction_model.onnx`.
 
 3. **Start the development server**
 
