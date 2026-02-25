@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { existsSync } from 'node:fs'
 import { join } from 'node:path'
 
 // Player type must match client
@@ -60,68 +61,88 @@ export const Route = createFileRoute('/api/predict')({
   server: {
     handlers: {
       POST: async ({ request }) => {
-        const ort = await import('onnxruntime-node')
-        const body = (await request.json()) as {
-          team1: Player[]
-          team2: Player[]
-        }
-        const { team1, team2 } = body
-        if (
-          !Array.isArray(team1) ||
-          !Array.isArray(team2) ||
-          team1.length !== 5 ||
-          team2.length !== 5
-        ) {
+        try {
+          const ort = await import('onnxruntime-node')
+          const body = (await request.json()) as {
+            team1: Player[]
+            team2: Player[]
+          }
+          const { team1, team2 } = body
+          if (
+            !Array.isArray(team1) ||
+            !Array.isArray(team2) ||
+            team1.length !== 5 ||
+            team2.length !== 5
+          ) {
+            return Response.json(
+              {
+                error:
+                  'Request must include team1 and team2, each with exactly 5 players',
+              },
+              { status: 400 },
+            )
+          }
+
+          const modelPath = join(
+            process.cwd(),
+            'server-models',
+            'match_prediction_model.onnx',
+          )
+
+          if (!existsSync(modelPath)) {
+            console.error('ONNX model not found at path:', modelPath)
+            return Response.json(
+              { error: 'Model file not found on server' },
+              { status: 500 },
+            )
+          }
+
+          const session = await ort.InferenceSession.create(modelPath)
+          const { diffFloats } = buildFeatures(team1, team2)
+
+          const feed: Record<string, any> = {}
+          for (let i = 0; i < DIFF_INPUT_NAMES.length; i++) {
+            feed[DIFF_INPUT_NAMES[i]] = new ort.Tensor(
+              'float32',
+              new Float32Array([diffFloats[i]]),
+              [1, 1],
+            )
+          }
+          // Though these features doesnt really affect the prediction, we need to provide them anyway to prevent onnx from crashing
+          feed['phase'] = new ort.Tensor('string', ['Control'], [1, 1])
+          feed['stage'] = new ort.Tensor('string', ['Group'], [1, 1])
+
+          const outputNames = session.outputNames as string[]
+          const outputMetadata = (session as any).outputMetadata as
+            | { isTensor: boolean }[]
+            | undefined
+
+          let tensorOutputNames = outputNames
+          if (
+            outputMetadata &&
+            outputMetadata.length === outputNames.length
+          ) {
+            tensorOutputNames = outputNames.filter(
+              (_name, idx) => outputMetadata[idx]?.isTensor,
+            )
+          }
+
+          const mainOutputName = tensorOutputNames[1] ?? tensorOutputNames[0]
+
+          const results = await session.run(feed, [mainOutputName])
+          const tensor = results[mainOutputName] as { data: unknown }
+          const data = tensor.data as Float32Array
+
+          const team1WinProbability = Number(data[1])
+          const team2WinProbability = Number(data[0])
+          return Response.json({ team1WinProbability, team2WinProbability })
+        } catch (error) {
+          console.error('Error in /api/predict handler:', error)
           return Response.json(
-            {
-              error:
-                'Request must include team1 and team2, each with exactly 5 players',
-            },
-            { status: 400 },
+            { error: 'Internal server error in prediction route' },
+            { status: 500 },
           )
         }
-
-        const modelPath = join(
-          process.cwd(),
-          'server-models',
-          'match_prediction_model.onnx',
-        )
-        const session = await ort.InferenceSession.create(modelPath)
-        const { diffFloats } = buildFeatures(team1, team2)
-
-        const feed: Record<string, any> = {}
-        for (let i = 0; i < DIFF_INPUT_NAMES.length; i++) {
-          feed[DIFF_INPUT_NAMES[i]] = new ort.Tensor(
-            'float32',
-            new Float32Array([diffFloats[i]]),
-            [1, 1],
-          )
-        }
-        // Though these features doesnt really affect the prediction, we need to provide them anyway to prevent onnx from crashing
-        feed['phase'] = new ort.Tensor('string', ['Control'], [1, 1])
-        feed['stage'] = new ort.Tensor('string', ['Group'], [1, 1])
-
-        const outputNames = session.outputNames as string[]
-        const outputMetadata = (session as any).outputMetadata as
-          | { isTensor: boolean }[]
-          | undefined
-
-        let tensorOutputNames = outputNames
-        if (outputMetadata && outputMetadata.length === outputNames.length) {
-          tensorOutputNames = outputNames.filter(
-            (_name, idx) => outputMetadata[idx]?.isTensor,
-          )
-        }
-
-        const mainOutputName = tensorOutputNames[1] ?? tensorOutputNames[0]
-
-        const results = await session.run(feed, [mainOutputName])
-        const tensor = results[mainOutputName] as { data: unknown }
-        const data = tensor.data as Float32Array
-
-        const team1WinProbability = Number(data[1])
-        const team2WinProbability = Number(data[0])
-        return Response.json({ team1WinProbability, team2WinProbability })
       },
     },
   },
