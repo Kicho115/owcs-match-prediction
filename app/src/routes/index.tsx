@@ -120,74 +120,100 @@ function App() {
   }
 
   return (
-    <div className="container mx-auto py-8 px-4">
-      <div className="max-w-7xl mx-auto space-y-8">
-        <div>
-          <h1 className="text-3xl font-bold mb-2">OWCS Match Prediction</h1>
-          <p className="text-muted-foreground">
-            Select 5 players for each team to predict match outcome
-          </p>
-          <p className="text-muted-foreground">
-            <strong>
-              You can only add 1 tank, 2 damage and 2 support players to each
-              team.
-            </strong>
-          </p>
+    <div className="space-y-8">
+      <section className="rounded-2xl border bg-card/80 p-5 shadow-sm backdrop-blur sm:p-6">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+              Build your OWCS matchup
+            </h1>
+            <p className="mt-1 text-sm text-muted-foreground sm:text-base">
+              Select 5 players for each team to predict which side has the edge.
+            </p>
+          </div>
+          <div className="rounded-xl border bg-muted/40 px-4 py-3 text-xs text-muted-foreground sm:text-sm">
+            <p className="font-medium text-foreground">Team rules</p>
+            <p className="mt-1">
+              1 Tank, 2 Damage, 2 Support per team. We&apos;ll stop you from
+              overfilling a role so both teams stay balanced.
+            </p>
+          </div>
         </div>
+      </section>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <TeamSection
-            title="Team 1"
-            colorClass="text-blue-600"
-            cardBgClass="bg-blue-50 dark:bg-blue-950/20"
-            players={team1}
-            excludedPlayers={allSelectedPlayers}
-            onAddPlayer={addToTeam1}
-            onRemovePlayer={removeFromTeam1}
-          />
+      <section className="grid gap-6 lg:grid-cols-2">
+        <TeamSection
+          title="Team 1"
+          colorClass="text-blue-500 dark:text-blue-400"
+          cardBgClass="bg-blue-50/70 dark:bg-blue-950/30"
+          players={team1}
+          excludedPlayers={allSelectedPlayers}
+          onAddPlayer={addToTeam1}
+          onRemovePlayer={removeFromTeam1}
+        />
 
-          <TeamSection
-            title="Team 2"
-            colorClass="text-red-600"
-            cardBgClass="bg-red-50 dark:bg-red-950/20"
-            players={team2}
-            excludedPlayers={allSelectedPlayers}
-            onAddPlayer={addToTeam2}
-            onRemovePlayer={removeFromTeam2}
-          />
-        </div>
+        <TeamSection
+          title="Team 2"
+          colorClass="text-red-500 dark:text-red-400"
+          cardBgClass="bg-red-50/70 dark:bg-red-950/30"
+          players={team2}
+          excludedPlayers={allSelectedPlayers}
+          onAddPlayer={addToTeam2}
+          onRemovePlayer={removeFromTeam2}
+        />
+      </section>
 
-        {team1.length === 5 && team2.length === 5 && (
-          <div className="flex flex-col items-center gap-4">
-            <Button
-              size="lg"
-              className="px-8"
-              disabled={predict.isPending}
-              onClick={() => predict.mutate()}
-            >
-              {predict.isPending ? 'Predicting...' : 'Predict Match Outcome'}
-            </Button>
-            {result && (
-              <div className="rounded-lg border bg-muted/50 p-4 text-center">
-                <p className="text-sm font-medium text-muted-foreground">
-                  Win probability
+      <section className="flex flex-col items-center gap-4">
+        <Button
+          size="lg"
+          className="px-8"
+          disabled={predict.isPending || team1.length !== 5 || team2.length !== 5}
+          onClick={() => predict.mutate()}
+        >
+          {predict.isPending
+            ? 'Crunching the numbers...'
+            : 'Predict Match Outcome'}
+        </Button>
+
+        {(team1.length !== 5 || team2.length !== 5) && (
+          <p className="text-xs text-muted-foreground sm:text-sm">
+            Add {Math.max(0, 5 - team1.length)} more player
+            {5 - team1.length === 1 ? '' : 's'} to Team 1 and{' '}
+            {Math.max(0, 5 - team2.length)} more to Team 2 to enable
+            predictions.
+          </p>
+        )}
+
+        {result && (
+          <div className="mt-2 w-full max-w-md rounded-2xl border bg-muted/60 p-4 text-center shadow-sm sm:p-5">
+            <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+              Win probability
+            </p>
+            <div className="mt-3 grid grid-cols-2 gap-3 text-sm sm:text-base">
+              <div className="rounded-xl border bg-background/80 p-3">
+                <p className="text-xs font-medium uppercase tracking-wide text-blue-500 dark:text-blue-400">
+                  Team 1
                 </p>
-                <p className="text-2xl font-bold text-blue-600">
-                  Team 1: {(result.team1WinProbability * 100).toFixed(1)}%
-                </p>
-                <p className="text-2xl font-bold text-red-600">
-                  Team 2: {(result.team2WinProbability * 100).toFixed(1)}%
+                <p className="mt-1 text-2xl font-bold sm:text-3xl">
+                  {(result.team1WinProbability * 100).toFixed(1)}%
                 </p>
               </div>
-            )}
-            {predict.isError && (
-              <p className="text-sm text-destructive">
-                {predict.error.message}
-              </p>
-            )}
+              <div className="rounded-xl border bg-background/80 p-3">
+                <p className="text-xs font-medium uppercase tracking-wide text-red-500 dark:text-red-400">
+                  Team 2
+                </p>
+                <p className="mt-1 text-2xl font-bold sm:text-3xl">
+                  {(result.team2WinProbability * 100).toFixed(1)}%
+                </p>
+              </div>
+            </div>
           </div>
         )}
-      </div>
+
+        {predict.isError && (
+          <p className="text-sm text-destructive">{predict.error.message}</p>
+        )}
+      </section>
     </div>
   )
 }

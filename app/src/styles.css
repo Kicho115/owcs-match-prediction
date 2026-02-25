@@ -136,3 +136,23 @@ code {
     @apply bg-background text-foreground;
   }
 }
+
+[data-slot='command-list'] {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+[data-slot='command-list']::-webkit-scrollbar {
+  width: 8px;
+}
+
+[data-slot='command-list']::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+[data-slot='command-list']::-webkit-scrollbar-thumb {
+  background-color: var(--color-border);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}

@@ -4,6 +4,7 @@ import { TanStackDevtools } from '@tanstack/react-devtools'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 import Header from '../components/Header'
+import { ThemeProvider } from '../components/ThemeProvider'
 import appCss from '../styles.css?url'
 
 const queryClient = new QueryClient()
@@ -40,8 +41,14 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <QueryClientProvider client={queryClient}>
-          <Header />
-          {children}
+          <ThemeProvider>
+            <div className="min-h-screen bg-gradient-to-b from-background via-background to-background/95">
+              <Header />
+              <main className="mx-auto w-full max-w-6xl px-4 pb-10 pt-6 sm:px-6 lg:px-8">
+                {children}
+              </main>
+            </div>
+          </ThemeProvider>
         </QueryClientProvider>
         <TanStackDevtools
           config={{
