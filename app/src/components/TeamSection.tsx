@@ -35,6 +35,7 @@ export function TeamSection({
           onPlayerSelect={onAddPlayer}
           excludedPlayers={excludedPlayers}
           teamName={`Add Player to ${title}`}
+          teamPlayers={players}
         />
       )}
 
@@ -52,7 +53,7 @@ export function TeamSection({
                 <p className="font-medium">{player.name}</p>
                 <p className="text-xs text-muted-foreground">
                   K/D: {player.stats['K/D Ratio'].toFixed(2)} •{' '}
-                  {player.matches_played} matches
+                  {player.matches_played} matches • {player.role}
                 </p>
               </div>
             </div>

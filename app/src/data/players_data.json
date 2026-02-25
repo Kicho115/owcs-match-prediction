@@ -28,7 +28,8 @@
         "Objective Time": 88.61,
         "Assists": 17.24,
         "Final Blows": 3.35
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Alba",
@@ -43,7 +44,8 @@
         "Objective Time": 31.0,
         "Assists": 3.43,
         "Final Blows": 2.0
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Aoy",
@@ -58,7 +60,8 @@
         "Objective Time": 57.71,
         "Assists": 12.86,
         "Final Blows": 2.79
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Arise",
@@ -73,7 +76,8 @@
         "Objective Time": 0.0,
         "Assists": 0.0,
         "Final Blows": 0.0
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Astro",
@@ -88,7 +92,8 @@
         "Objective Time": 101.76,
         "Assists": 3.64,
         "Final Blows": 5.28
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Axure",
@@ -103,7 +108,8 @@
         "Objective Time": 0.0,
         "Assists": 0.0,
         "Final Blows": 0.0
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Backbone",
@@ -118,7 +124,8 @@
         "Objective Time": 81.55,
         "Assists": 2.45,
         "Final Blows": 6.18
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Baz",
@@ -133,7 +140,8 @@
         "Objective Time": 82.24,
         "Assists": 4.52,
         "Final Blows": 4.71
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Bliss",
@@ -148,7 +156,8 @@
         "Objective Time": 52.51,
         "Assists": 16.29,
         "Final Blows": 3.57
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Chase",
@@ -163,7 +172,8 @@
         "Objective Time": 83.93,
         "Assists": 6.07,
         "Final Blows": 8.8
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Checkmate",
@@ -178,7 +188,8 @@
         "Objective Time": 52.59,
         "Assists": 2.29,
         "Final Blows": 7.8
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "China",
@@ -193,7 +204,8 @@
         "Objective Time": 42.86,
         "Assists": 0.57,
         "Final Blows": 4.57
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Choisehwan",
@@ -208,7 +220,8 @@
         "Objective Time": 68.0,
         "Assists": 1.57,
         "Final Blows": 8.86
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Chopper",
@@ -223,7 +236,8 @@
         "Objective Time": 37.76,
         "Assists": 1.97,
         "Final Blows": 9.45
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Cinnabar",
@@ -238,7 +252,8 @@
         "Objective Time": 68.16,
         "Assists": 12.91,
         "Final Blows": 2.69
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Cjay",
@@ -253,7 +268,8 @@
         "Objective Time": 33.68,
         "Assists": 17.0,
         "Final Blows": 3.28
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Clear",
@@ -268,7 +284,8 @@
         "Objective Time": 0.0,
         "Assists": 0.0,
         "Final Blows": 0.0
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Cookie084",
@@ -283,7 +300,8 @@
         "Objective Time": 39.42,
         "Assists": 0.7,
         "Final Blows": 7.3
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Crazycat",
@@ -298,7 +316,8 @@
         "Objective Time": 41.25,
         "Assists": 13.1,
         "Final Blows": 1.65
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Crispy",
@@ -313,7 +332,8 @@
         "Objective Time": 52.79,
         "Assists": 12.38,
         "Final Blows": 2.83
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Cuffa",
@@ -328,7 +348,8 @@
         "Objective Time": 95.99,
         "Assists": 4.41,
         "Final Blows": 8.03
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Danny",
@@ -343,7 +364,8 @@
         "Objective Time": 28.84,
         "Assists": 1.58,
         "Final Blows": 5.05
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Dip",
@@ -358,7 +380,8 @@
         "Objective Time": 84.78,
         "Assists": 1.06,
         "Final Blows": 7.75
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Drunk",
@@ -373,7 +396,8 @@
         "Objective Time": 67.38,
         "Assists": 0.5,
         "Final Blows": 4.81
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Egs",
@@ -388,7 +412,8 @@
         "Objective Time": 24.0,
         "Assists": 14.9,
         "Final Blows": 2.7
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Eisgnom",
@@ -403,7 +428,8 @@
         "Objective Time": 116.61,
         "Assists": 5.96,
         "Final Blows": 8.48
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Evil",
@@ -418,7 +444,8 @@
         "Objective Time": 39.5,
         "Assists": 0.3,
         "Final Blows": 4.9
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Ewan",
@@ -433,7 +460,8 @@
         "Objective Time": 63.24,
         "Assists": 12.71,
         "Final Blows": 2.29
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "F1lse",
@@ -448,7 +476,8 @@
         "Objective Time": 102.0,
         "Assists": 4.43,
         "Final Blows": 4.86
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Faith",
@@ -463,7 +492,8 @@
         "Objective Time": 58.62,
         "Assists": 16.97,
         "Final Blows": 3.0
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Fdgod",
@@ -478,7 +508,8 @@
         "Objective Time": 62.18,
         "Assists": 14.75,
         "Final Blows": 3.39
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Fixa",
@@ -493,7 +524,8 @@
         "Objective Time": 71.95,
         "Assists": 17.8,
         "Final Blows": 5.03
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Fone",
@@ -508,7 +540,8 @@
         "Objective Time": 53.73,
         "Assists": 3.59,
         "Final Blows": 5.64
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Frothyfilly7",
@@ -523,7 +556,8 @@
         "Objective Time": 29.12,
         "Assists": 12.16,
         "Final Blows": 2.8
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "FunnyAstro",
@@ -538,7 +572,8 @@
         "Objective Time": 59.76,
         "Assists": 13.85,
         "Final Blows": 2.85
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Funnyastro",
@@ -553,7 +588,8 @@
         "Objective Time": 0.0,
         "Assists": 0.0,
         "Final Blows": 0.0
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Galaa",
@@ -568,7 +604,8 @@
         "Objective Time": 54.76,
         "Assists": 17.45,
         "Final Blows": 3.68
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Gap",
@@ -583,7 +620,8 @@
         "Objective Time": 114.5,
         "Assists": 7.0,
         "Final Blows": 5.18
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Gogo",
@@ -598,7 +636,8 @@
         "Objective Time": 67.65,
         "Assists": 13.0,
         "Final Blows": 2.15
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Grapes",
@@ -613,7 +652,8 @@
         "Objective Time": 53.95,
         "Assists": 13.95,
         "Final Blows": 2.81
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Graveyard",
@@ -628,7 +668,8 @@
         "Objective Time": 27.0,
         "Assists": 10.68,
         "Final Blows": 1.84
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Hadi",
@@ -643,7 +684,8 @@
         "Objective Time": 102.1,
         "Assists": 5.4,
         "Final Blows": 6.4
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Haku",
@@ -658,7 +700,8 @@
         "Objective Time": 78.27,
         "Assists": 16.76,
         "Final Blows": 3.27
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Hanbei",
@@ -673,7 +716,8 @@
         "Objective Time": 32.17,
         "Assists": 13.67,
         "Final Blows": 2.67
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Hawk",
@@ -688,7 +732,8 @@
         "Objective Time": 124.75,
         "Assists": 7.38,
         "Final Blows": 8.0
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Heesung",
@@ -703,7 +748,8 @@
         "Objective Time": 86.47,
         "Assists": 4.38,
         "Final Blows": 6.62
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Hitori",
@@ -718,7 +764,8 @@
         "Objective Time": 96.85,
         "Assists": 4.47,
         "Final Blows": 6.97
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Imoh97",
@@ -733,7 +780,8 @@
         "Objective Time": 112.0,
         "Assists": 3.71,
         "Final Blows": 7.65
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Infekted",
@@ -748,7 +796,8 @@
         "Objective Time": 129.24,
         "Assists": 7.44,
         "Final Blows": 8.33
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Irony",
@@ -763,7 +812,8 @@
         "Objective Time": 36.85,
         "Assists": 16.07,
         "Final Blows": 3.0
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Jaewoo",
@@ -778,7 +828,8 @@
         "Objective Time": 65.98,
         "Assists": 0.84,
         "Final Blows": 9.93
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Johnowich",
@@ -793,7 +844,8 @@
         "Objective Time": 26.3,
         "Assists": 7.4,
         "Final Blows": 2.3
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Jonte",
@@ -808,7 +860,8 @@
         "Objective Time": 46.25,
         "Assists": 3.38,
         "Final Blows": 3.88
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Juiiccee",
@@ -823,7 +876,8 @@
         "Objective Time": 21.33,
         "Assists": 0.0,
         "Final Blows": 5.67
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Jutsu",
@@ -838,7 +892,8 @@
         "Objective Time": 30.86,
         "Assists": 0.48,
         "Final Blows": 5.38
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "K1ng",
@@ -853,7 +908,8 @@
         "Objective Time": 57.9,
         "Assists": 0.65,
         "Final Blows": 8.19
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Kai",
@@ -868,7 +924,8 @@
         "Objective Time": 38.46,
         "Assists": 0.87,
         "Final Blows": 8.01
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Karmez",
@@ -883,7 +940,8 @@
         "Objective Time": 58.67,
         "Assists": 1.33,
         "Final Blows": 6.5
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Kellan",
@@ -898,7 +956,8 @@
         "Objective Time": 96.07,
         "Assists": 6.54,
         "Final Blows": 7.09
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Kellex",
@@ -913,7 +972,8 @@
         "Objective Time": 78.81,
         "Assists": 18.14,
         "Final Blows": 3.79
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Ken",
@@ -928,7 +988,8 @@
         "Objective Time": 57.83,
         "Assists": 0.52,
         "Final Blows": 6.94
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Kevster",
@@ -943,7 +1004,8 @@
         "Objective Time": 64.69,
         "Assists": 0.7,
         "Final Blows": 8.9
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Khenail",
@@ -958,7 +1020,8 @@
         "Objective Time": 44.25,
         "Assists": 13.46,
         "Final Blows": 2.85
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Kio",
@@ -973,7 +1036,8 @@
         "Objective Time": 50.73,
         "Assists": 0.85,
         "Final Blows": 6.61
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Kiwii",
@@ -988,7 +1052,8 @@
         "Objective Time": 47.5,
         "Assists": 13.0,
         "Final Blows": 2.3
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Knife",
@@ -1003,7 +1068,8 @@
         "Objective Time": 63.22,
         "Assists": 1.8,
         "Final Blows": 9.49
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Kronik",
@@ -1018,7 +1084,8 @@
         "Objective Time": 33.44,
         "Assists": 1.24,
         "Final Blows": 9.37
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Kroxz",
@@ -1033,7 +1100,8 @@
         "Objective Time": 83.8,
         "Assists": 2.1,
         "Final Blows": 10.2
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Ksaa",
@@ -1048,7 +1116,8 @@
         "Objective Time": 145.36,
         "Assists": 6.91,
         "Final Blows": 6.8
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Landon",
@@ -1063,7 +1132,8 @@
         "Objective Time": 47.08,
         "Assists": 17.31,
         "Final Blows": 4.65
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "LBBD7",
@@ -1078,7 +1148,8 @@
         "Objective Time": 48.43,
         "Assists": 1.32,
         "Final Blows": 9.35
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Lbbd7",
@@ -1093,7 +1164,8 @@
         "Objective Time": 0.0,
         "Assists": 0.0,
         "Final Blows": 0.0
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Lep",
@@ -1108,7 +1180,8 @@
         "Objective Time": 46.39,
         "Assists": 16.0,
         "Final Blows": 3.45
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Lethal",
@@ -1123,7 +1196,8 @@
         "Objective Time": 30.72,
         "Assists": 2.17,
         "Final Blows": 8.84
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Lukemino",
@@ -1138,7 +1212,8 @@
         "Objective Time": 52.99,
         "Assists": 17.82,
         "Final Blows": 3.98
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Mag",
@@ -1153,7 +1228,8 @@
         "Objective Time": 116.16,
         "Assists": 6.09,
         "Final Blows": 7.11
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Majin",
@@ -1168,7 +1244,8 @@
         "Objective Time": 137.45,
         "Assists": 5.85,
         "Final Blows": 5.8
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Natsuki",
@@ -1183,7 +1260,8 @@
         "Objective Time": 75.2,
         "Assists": 13.5,
         "Final Blows": 2.42
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Nenwhy",
@@ -1198,7 +1276,8 @@
         "Objective Time": 66.44,
         "Assists": 14.04,
         "Final Blows": 3.37
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Nvm",
@@ -1213,7 +1292,8 @@
         "Objective Time": 44.5,
         "Assists": 1.65,
         "Final Blows": 6.45
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "One",
@@ -1228,7 +1308,8 @@
         "Objective Time": 62.17,
         "Assists": 14.5,
         "Final Blows": 2.25
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Painkiller",
@@ -1243,7 +1324,8 @@
         "Objective Time": 131.06,
         "Assists": 6.58,
         "Final Blows": 7.83
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Pak",
@@ -1258,7 +1340,8 @@
         "Objective Time": 82.0,
         "Assists": 0.65,
         "Final Blows": 6.75
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Pdk",
@@ -1273,7 +1356,8 @@
         "Objective Time": 32.45,
         "Assists": 0.55,
         "Final Blows": 5.36
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Peace",
@@ -1288,7 +1372,8 @@
         "Objective Time": 82.5,
         "Assists": 0.47,
         "Final Blows": 7.09
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Pela",
@@ -1303,7 +1388,8 @@
         "Objective Time": 64.44,
         "Assists": 10.28,
         "Final Blows": 6.0
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Prota",
@@ -1318,7 +1404,8 @@
         "Objective Time": 20.05,
         "Assists": 8.86,
         "Final Blows": 1.76
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Qlmaz",
@@ -1333,7 +1420,8 @@
         "Objective Time": 0.0,
         "Assists": 0.0,
         "Final Blows": 0.0
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Quartz",
@@ -1348,7 +1436,8 @@
         "Objective Time": 20.29,
         "Assists": 0.86,
         "Final Blows": 8.4
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Raikker",
@@ -1363,7 +1452,8 @@
         "Objective Time": 112.73,
         "Assists": 7.33,
         "Final Blows": 7.79
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Rajeem",
@@ -1378,7 +1468,8 @@
         "Objective Time": 45.89,
         "Assists": 8.79,
         "Final Blows": 2.32
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Redex",
@@ -1393,7 +1484,8 @@
         "Objective Time": 49.71,
         "Assists": 9.18,
         "Final Blows": 3.18
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Renko",
@@ -1408,7 +1500,8 @@
         "Objective Time": 36.9,
         "Assists": 12.81,
         "Final Blows": 2.81
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Rhyno",
@@ -1423,7 +1516,8 @@
         "Objective Time": 73.86,
         "Assists": 5.29,
         "Final Blows": 8.14
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Rokit",
@@ -1438,7 +1532,8 @@
         "Objective Time": 84.2,
         "Assists": 0.62,
         "Final Blows": 8.96
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Rupal",
@@ -1453,7 +1548,8 @@
         "Objective Time": 46.16,
         "Assists": 17.72,
         "Final Blows": 3.71
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Ryan",
@@ -1468,7 +1564,8 @@
         "Objective Time": 74.57,
         "Assists": 0.0,
         "Final Blows": 8.3
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Rzr",
@@ -1483,7 +1580,8 @@
         "Objective Time": 50.82,
         "Assists": 1.46,
         "Final Blows": 4.75
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "S9mm",
@@ -1498,7 +1596,8 @@
         "Objective Time": 0.0,
         "Assists": 0.0,
         "Final Blows": 0.0
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Sauna",
@@ -1513,7 +1612,8 @@
         "Objective Time": 66.07,
         "Assists": 0.97,
         "Final Blows": 7.2
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Scissors",
@@ -1528,7 +1628,8 @@
         "Objective Time": 0.0,
         "Assists": 0.0,
         "Final Blows": 0.0
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Scuffed",
@@ -1543,7 +1644,8 @@
         "Objective Time": 44.65,
         "Assists": 15.18,
         "Final Blows": 3.37
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Scyle",
@@ -1558,7 +1660,8 @@
         "Objective Time": 42.45,
         "Assists": 12.27,
         "Final Blows": 2.82
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Seeker",
@@ -1573,7 +1676,8 @@
         "Objective Time": 35.53,
         "Assists": 1.46,
         "Final Blows": 8.53
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Seicoe",
@@ -1588,7 +1692,8 @@
         "Objective Time": 56.96,
         "Assists": 1.09,
         "Final Blows": 7.07
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Shockwave",
@@ -1603,7 +1708,8 @@
         "Objective Time": 42.16,
         "Assists": 0.99,
         "Final Blows": 7.89
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Simple",
@@ -1618,7 +1724,8 @@
         "Objective Time": 41.7,
         "Assists": 15.12,
         "Final Blows": 3.89
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Skai",
@@ -1633,7 +1740,8 @@
         "Objective Time": 36.33,
         "Assists": 15.49,
         "Final Blows": 2.83
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Skytorr",
@@ -1648,7 +1756,8 @@
         "Objective Time": 61.69,
         "Assists": 2.31,
         "Final Blows": 6.38
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Slowdive",
@@ -1663,7 +1772,8 @@
         "Objective Time": 33.52,
         "Assists": 2.61,
         "Final Blows": 7.83
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Snowdrop",
@@ -1678,7 +1788,8 @@
         "Objective Time": 30.6,
         "Assists": 1.4,
         "Final Blows": 4.9
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Solo",
@@ -1693,7 +1804,8 @@
         "Objective Time": 82.53,
         "Assists": 4.37,
         "Final Blows": 4.42
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Solozen",
@@ -1708,7 +1820,8 @@
         "Objective Time": 20.67,
         "Assists": 7.33,
         "Final Blows": 0.67
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Soon",
@@ -1723,7 +1836,8 @@
         "Objective Time": 59.9,
         "Assists": 0.3,
         "Final Blows": 4.8
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Squid",
@@ -1738,7 +1852,8 @@
         "Objective Time": 43.41,
         "Assists": 15.96,
         "Final Blows": 4.59
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Strebor",
@@ -1753,7 +1868,8 @@
         "Objective Time": 38.04,
         "Assists": 8.62,
         "Final Blows": 2.38
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Sugarfree",
@@ -1768,7 +1884,8 @@
         "Objective Time": 69.4,
         "Assists": 1.02,
         "Final Blows": 10.07
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Sxj",
@@ -1783,7 +1900,8 @@
         "Objective Time": 67.4,
         "Assists": 0.1,
         "Final Blows": 6.1
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Taejong",
@@ -1798,7 +1916,8 @@
         "Objective Time": 59.3,
         "Assists": 0.35,
         "Final Blows": 8.83
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Tama",
@@ -1813,7 +1932,8 @@
         "Objective Time": 123.43,
         "Assists": 7.71,
         "Final Blows": 8.43
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Topdragon",
@@ -1828,7 +1948,8 @@
         "Objective Time": 52.87,
         "Assists": 1.4,
         "Final Blows": 8.47
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Tr33",
@@ -1843,7 +1964,8 @@
         "Objective Time": 35.35,
         "Assists": 1.68,
         "Final Blows": 9.04
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Tred",
@@ -1858,7 +1980,8 @@
         "Objective Time": 114.09,
         "Assists": 6.09,
         "Final Blows": 8.06
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Tvnt",
@@ -1873,7 +1996,8 @@
         "Objective Time": 75.61,
         "Assists": 7.7,
         "Final Blows": 8.65
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Twilight",
@@ -1888,7 +2012,8 @@
         "Objective Time": 35.05,
         "Assists": 12.85,
         "Final Blows": 3.2
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Twolzz",
@@ -1903,7 +2028,8 @@
         "Objective Time": 135.09,
         "Assists": 4.73,
         "Final Blows": 8.18
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Ultraviolet",
@@ -1918,7 +2044,8 @@
         "Objective Time": 39.72,
         "Assists": 15.11,
         "Final Blows": 4.32
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "V1ctory",
@@ -1933,7 +2060,8 @@
         "Objective Time": 0.0,
         "Assists": 0.0,
         "Final Blows": 0.0
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Vega",
@@ -1948,7 +2076,8 @@
         "Objective Time": 58.09,
         "Assists": 16.41,
         "Final Blows": 4.19
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Vestola",
@@ -1963,7 +2092,8 @@
         "Objective Time": 130.37,
         "Assists": 10.62,
         "Final Blows": 7.66
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Viol2t",
@@ -1978,7 +2108,8 @@
         "Objective Time": 72.14,
         "Assists": 10.0,
         "Final Blows": 5.29
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Vision",
@@ -1993,7 +2124,8 @@
         "Objective Time": 37.0,
         "Assists": 2.14,
         "Final Blows": 4.57
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Whoru",
@@ -2008,7 +2140,8 @@
         "Objective Time": 45.0,
         "Assists": 1.04,
         "Final Blows": 6.7
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Willys",
@@ -2023,7 +2156,8 @@
         "Objective Time": 115.58,
         "Assists": 5.88,
         "Final Blows": 7.97
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Winter",
@@ -2038,7 +2172,8 @@
         "Objective Time": 36.59,
         "Assists": 1.59,
         "Final Blows": 6.91
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Wmaimone",
@@ -2053,7 +2188,8 @@
         "Objective Time": 38.63,
         "Assists": 2.55,
         "Final Blows": 8.67
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Wub",
@@ -2068,7 +2204,8 @@
         "Objective Time": 35.1,
         "Assists": 1.0,
         "Final Blows": 7.55
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Xeriongdh",
@@ -2083,7 +2220,8 @@
         "Objective Time": 44.46,
         "Assists": 16.12,
         "Final Blows": 3.33
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Xomba",
@@ -2098,7 +2236,8 @@
         "Objective Time": 64.67,
         "Assists": 0.24,
         "Final Blows": 8.67
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Xten",
@@ -2113,7 +2252,8 @@
         "Objective Time": 34.21,
         "Assists": 0.34,
         "Final Blows": 7.66
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Xzodyal",
@@ -2128,7 +2268,8 @@
         "Objective Time": 35.21,
         "Assists": 0.9,
         "Final Blows": 7.65
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Yoham",
@@ -2143,7 +2284,8 @@
         "Objective Time": 46.52,
         "Assists": 13.05,
         "Final Blows": 3.15
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Youbi",
@@ -2158,7 +2300,8 @@
         "Objective Time": 65.05,
         "Assists": 4.52,
         "Final Blows": 6.18
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Zeb",
@@ -2173,7 +2316,8 @@
         "Objective Time": 94.27,
         "Assists": 6.55,
         "Final Blows": 7.0
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Zeruhh",
@@ -2188,7 +2332,8 @@
         "Objective Time": 68.0,
         "Assists": 0.22,
         "Final Blows": 10.12
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Ziyad",
@@ -2203,7 +2348,8 @@
         "Objective Time": 106.51,
         "Assists": 10.75,
         "Final Blows": 8.19
-      }
+      },
+      "role": "Tank"
     },
     {
       "name": "Zorrow",
@@ -2218,7 +2364,8 @@
         "Objective Time": 26.03,
         "Assists": 1.16,
         "Final Blows": 5.77
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Zox",
@@ -2233,7 +2380,8 @@
         "Objective Time": 39.42,
         "Assists": 12.25,
         "Final Blows": 3.42
-      }
+      },
+      "role": "Support"
     },
     {
       "name": "Zydra",
@@ -2248,7 +2396,8 @@
         "Objective Time": 33.28,
         "Assists": 0.44,
         "Final Blows": 8.04
-      }
+      },
+      "role": "Damage"
     },
     {
       "name": "Zzz",
@@ -2263,7 +2412,8 @@
         "Objective Time": 48.37,
         "Assists": 16.11,
         "Final Blows": 2.65
-      }
+      },
+      "role": "Support"
     }
   ]
 }

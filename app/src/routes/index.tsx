@@ -7,11 +7,30 @@ import { useMutation } from '@tanstack/react-query'
 
 export const Route = createFileRoute('/')({ component: App })
 
-type PredictionResult = { team1WinProbability: number; team2WinProbability: number }
+type PredictionResult = {
+  team1WinProbability: number
+  team2WinProbability: number
+}
+
+type RolesSum = {
+  Tank: number
+  Damage: number
+  Support: number
+}
 
 function App() {
   const [team1, setTeam1] = useState<Player[]>([])
+  const [team1Roles, setTeam1Roles] = useState<RolesSum>({
+    Tank: 0,
+    Damage: 0,
+    Support: 0,
+  })
   const [team2, setTeam2] = useState<Player[]>([])
+  const [team2Roles, setTeam2Roles] = useState<RolesSum>({
+    Tank: 0,
+    Damage: 0,
+    Support: 0,
+  })
   const [result, setResult] = useState<PredictionResult | null>(null)
 
   const predict = useMutation({
@@ -23,7 +42,9 @@ function App() {
       })
       if (!res.ok) {
         const err = await res.json().catch(() => ({ error: res.statusText }))
-        throw new Error((err as { error?: string }).error ?? 'Prediction failed')
+        throw new Error(
+          (err as { error?: string }).error ?? 'Prediction failed',
+        )
       }
       return res.json() as Promise<PredictionResult>
     },
@@ -33,23 +54,69 @@ function App() {
   const allSelectedPlayers = [...team1, ...team2].map((p) => p.name)
 
   const addToTeam1 = (player: Player) => {
-    if (team1.length < 5) {
-      setTeam1([...team1, player])
-    }
+    if (team1.length >= 5) return
+
+    // Only 1 tank, 2 damage and 2 support players allowed
+    if (player.role === 'Tank' && team1.some((p) => p.role === 'Tank')) return
+    if (
+      player.role === 'Damage' &&
+      team1.filter((p) => p.role === 'Damage').length >= 2
+    )
+      return
+    if (
+      player.role === 'Support' &&
+      team1.filter((p) => p.role === 'Support').length >= 2
+    )
+      return
+
+    setTeam1([...team1, player])
+    setTeam1Roles({
+      ...team1Roles,
+      [player.role]: team1Roles[player.role] + 1,
+    })
   }
 
   const addToTeam2 = (player: Player) => {
-    if (team2.length < 5) {
-      setTeam2([...team2, player])
-    }
+    if (team2.length >= 5) return
+
+    // Only 1 tank, 2 damage and 2 support players allowed
+    if (player.role === 'Tank' && team2.some((p) => p.role === 'Tank')) return
+    if (
+      player.role === 'Damage' &&
+      team2.filter((p) => p.role === 'Damage').length >= 2
+    )
+      return
+    if (
+      player.role === 'Support' &&
+      team2.filter((p) => p.role === 'Support').length >= 2
+    )
+      return
+
+    setTeam2([...team2, player])
+    setTeam2Roles({
+      ...team2Roles,
+      [player.role]: team2Roles[player.role] + 1,
+    })
   }
 
   const removeFromTeam1 = (playerName: string) => {
+    const player = team1.find((p) => p.name === playerName)
+    if (!player) return
     setTeam1(team1.filter((p) => p.name !== playerName))
+    setTeam1Roles({
+      ...team1Roles,
+      [player.role]: team1Roles[player.role] - 1,
+    })
   }
 
   const removeFromTeam2 = (playerName: string) => {
+    const player = team2.find((p) => p.name === playerName)
+    if (!player) return
     setTeam2(team2.filter((p) => p.name !== playerName))
+    setTeam2Roles({
+      ...team2Roles,
+      [player.role]: team2Roles[player.role] - 1,
+    })
   }
 
   return (
@@ -59,6 +126,12 @@ function App() {
           <h1 className="text-3xl font-bold mb-2">OWCS Match Prediction</h1>
           <p className="text-muted-foreground">
             Select 5 players for each team to predict match outcome
+          </p>
+          <p className="text-muted-foreground">
+            <strong>
+              You can only add 1 tank, 2 damage and 2 support players to each
+              team.
+            </strong>
           </p>
         </div>
 
@@ -96,7 +169,9 @@ function App() {
             </Button>
             {result && (
               <div className="rounded-lg border bg-muted/50 p-4 text-center">
-                <p className="text-sm font-medium text-muted-foreground">Win probability</p>
+                <p className="text-sm font-medium text-muted-foreground">
+                  Win probability
+                </p>
                 <p className="text-2xl font-bold text-blue-600">
                   Team 1: {(result.team1WinProbability * 100).toFixed(1)}%
                 </p>
@@ -106,7 +181,9 @@ function App() {
               </div>
             )}
             {predict.isError && (
-              <p className="text-sm text-destructive">{predict.error.message}</p>
+              <p className="text-sm text-destructive">
+                {predict.error.message}
+              </p>
             )}
           </div>
         )}
